@@ -7,6 +7,8 @@ import Price from "./price/Price"
 import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import AboutHomeplex from "./aboutHomeplex/aboutHomeplex"
+import ClientWork from "./recent/clientWork"
+
 
 const Home = () => {
   return (
@@ -14,9 +16,11 @@ const Home = () => {
       <Hero />
       <Featured />
       <AboutHomeplex/>
+   <ClientWork/>
       <Recent />
       {/* <Awards /> */}
       {/* <Location /> */}
+
       <Team />
       <Price />
     </>

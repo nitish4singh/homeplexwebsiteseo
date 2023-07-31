@@ -4,16 +4,18 @@ import "./recent.css"
 import RecentCard from "./RecentCard"
 
 const Recent = () => {
+  
   return (
     <>
       <section className='recent padding'>
         <div className='container'>
-          <Heading title='Recent Property Listed' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
+          <Heading title='Homeplex Popular Work' subtitle='Homeplex is a leading construction company that provides top-quality construction services. With years of experience in the industry.Trust Homeplex for all your construction needs.' />
           <RecentCard />
         </div>
       </section>
     </>
   )
 }
+
 
 export default Recent

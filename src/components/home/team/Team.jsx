@@ -10,7 +10,7 @@ const Team = () => {
         <div className='container'>
           <Heading title='Homeplex Founder'  />
 
-          <div className='content mtop grid3'>
+          <div className='content mtop gridf'>
             {team.map((val, index) => (
               <div className='box' key={index}>
                                 <div className='details'>

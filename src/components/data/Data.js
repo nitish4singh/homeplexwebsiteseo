@@ -26,6 +26,9 @@ export const nav = [
 ]
 
 
+
+
+
 export const featured = [
   {
     cover: "../images/hero/h1.png",
@@ -88,62 +91,65 @@ export const featured = [
     path: "/contact",
   },
 ]
-
+export const clientWork = [
+  {
+    id: 1,
+    cover: "../images/list/p-1.png",
+    name: "House Construction With Material",
+    location: "Inside Kathmandu velly",
+    category: "Price Varies  According to Your desire Materies",
+    price: "Rs 3200 -5000",
+  },
+  {
+    id: 2,
+    cover: "../images/list/p-2.png",
+    name: "labour Civil Construction only Structural ",
+    location: "Inside Kathmandu velly",
+    category: "Expert painting ,Electical ,tiles Marble,plumber",
+    price: "Rs.430-460",
+  
+  },
+  {
+    id: 6,
+    cover: "../images/list/p-6.png",
+    name: "labour Civil Construction only Structural ",
+    location: "Inside Kathmandu velly",
+    category: "Soil Testing ,Material testing,Custom home building,Commercial Construction,Residential remodelling,Concrete and masonry work,Electrical and plumbing work,Project management and consulting,Interior Design etc",
+    price: "Contact Us",
+   
+  },
+  
+]
 
 export const list = [
   {
     id: 1,
     cover: "../images/list/p-1.png",
-    name: "Red Carpet Real Estate",
-    location: "210 Zirak Road, Canada",
-    category: "For Rent",
-    price: "$3,700",
-    type: "Apartment",
+    name: "House Construction With Material",
+    location: "Inside Kathmandu velly",
+    category: "Price Varies  According to Your desire Materies",
+    price: "Rs 3200 -5000",
   },
   {
     id: 2,
     cover: "../images/list/p-2.png",
-    name: "Fairmount Properties",
-    location: "5698 Zirak Road, NewYork",
-    category: "For Sale",
-    price: "$9,750",
-    type: "Condos",
+    name: "labour Civil Construction only Structural ",
+    location: "Inside Kathmandu velly",
+    category: "Expert painting ,Electical ,tiles Marble,plumber",
+    price: "Rs.430-460",
+  
   },
-  {
-    id: 3,
-    cover: "../images/list/p-7.png",
-    name: "The Real Estate Corner",
-    location: "5624 Mooker Market, USA",
-    category: "For Rent",
-    price: "$5,860",
-    type: "Offices",
-  },
-  {
-    id: 4,
-    cover: "../images/list/p-4.png",
-    name: "Herringbone Realty",
-    location: "5621 Liverpool, London",
-    category: "For Sale",
-    price: "$7,540",
-    type: "Homes & Villas",
-  },
-  {
-    id: 5,
-    cover: "../images/list/p-5.png",
-    name: "Brick Lane Realty",
-    location: "210 Montreal Road, Canada",
-    category: "For Rent",
-    price: "$4,850",
-    type: "Commercial",
-  },
+ 
+
+
   {
     id: 6,
     cover: "../images/list/p-6.png",
-    name: "Banyon Tree Realty",
-    location: "210 Zirak Road, Canada",
-    category: "For Sale",
-    price: "$2,742",
-    type: "Apartment",
+    name: "",
+    location: "Inside Kathmandu velly",
+    category: "Soil Testing ,Material testing,Custom home building,Commercial Construction,Residential remodelling,Concrete and masonry work,Electrical and plumbing work,Project management and consulting,Interior Design etc",
+    price: "Contact Us",
+   
   },
 ]
 export const awards = [
@@ -338,7 +344,7 @@ export const footer = [
     title: "LAYOUTS",
     text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
   },
-  {
+  {                                     
     title: "ALL SECTIONS",
     text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
   },
