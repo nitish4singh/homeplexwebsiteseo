@@ -1,13 +1,12 @@
 import React from "react"
-import Awards from "./awards/Awards"
+import Awards from "./workingProcess/Wokingprocess"
 import Featured from "./featured/Featured"
 import Hero from "./hero/Hero"
-import Location from "./location/Location"
 import Price from "./price/Price"
 import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import AboutHomeplex from "./aboutHomeplex/aboutHomeplex"
-import ClientWork from "./recent/clientWork"
+import ClientWork from "./clientWork/clientwork"
 
 
 const Home = () => {
@@ -16,13 +15,12 @@ const Home = () => {
       <Hero />
       <Featured />
       <AboutHomeplex/>
-   <ClientWork/>
-      <Recent />
-      {/* <Awards /> */}
-      {/* <Location /> */}
-
-      <Team />
       <Price />
+      <Recent />
+      <Awards />
+     
+      <ClientWork/>
+      <Team />
     </>
   )
 }

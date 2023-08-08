@@ -15,7 +15,6 @@ const Pages = () => {
     <>
       <Router>
         <Header />
-        {/* <Plumber/> */}
         <Routes>
           <Route exact path='/' element={<Home/>} />
           <Route exact path='/about' element={<About/>} />
@@ -30,5 +29,4 @@ const Pages = () => {
     </>
   )
 }
-
 export default Pages

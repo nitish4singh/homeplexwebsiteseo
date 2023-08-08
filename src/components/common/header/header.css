@@ -8,7 +8,8 @@ header {
   z-index: 99999;
 }
 header img {
-  width: 170px;
+  width: 40px;
+  margin-top: 5px;
 }
 header a {
   margin-left: 30px;
@@ -24,7 +25,7 @@ header span {
   background: #27ae60;
   border-radius: 50px;
   color: #ffffff;
-  margin-right: 4px;
+  margin-right: 1px;
   font-weight: 400;
 }
 header h4 {

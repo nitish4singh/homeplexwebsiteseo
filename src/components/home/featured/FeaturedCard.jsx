@@ -7,14 +7,12 @@ const FeaturedCard = () => {
       <div className='content grid5 mtop'>
         {featured.map((items, index) => (
           <div className='box'>
-             <li key={index}>
-             <Link to={items.path}>
+                         <Link to={items.path}>
             <img src={items.cover} alt='' />
             <h4>{items.name}</h4>
             <label>{items.total}</label>
             </Link>
-            </li>
-          </div>
+                </div>
         ))}
       </div>
     </>

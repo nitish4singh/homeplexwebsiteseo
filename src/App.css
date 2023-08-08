@@ -27,7 +27,9 @@ ul {
 }
 button {
   border-radius: 5px;
-  padding: 17px 30px;
+  padding: 14px 50px;
+  margin-top: 5px;
+  margin-left: 10%;
   background: #27ae60;
   border: none;
   color: #fff;
@@ -43,13 +45,13 @@ button i {
   margin: auto;
 }
 .heading h1 {
-  color: #2d3954;
+  color: #021236;
   font-weight: 600;
   text-transform: capitalize;
-  font-size: 35px;
+  font-size: 30px;
 }
 .heading p {
-  color: #72809d;
+  color: #000e29;
 }
 textarea,
 input {
@@ -58,7 +60,7 @@ input {
   background: none;
 }
 .background {
-  padding: 80px 0;
+  padding: 20px 0;
   position: relative;
   background: #f7f9fc;
 }
@@ -66,14 +68,17 @@ input {
 .grid5 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 30px;
+  grid-gap: 20px;
 }
+
+
+
 label {
   color: #2d3954;
   font-size: 14px;
 }
 .mtop {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 h4 {
   font-weight: 500;
@@ -83,7 +88,7 @@ h4 {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
 }
 .padding {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 .grid3 {
   display: grid;
@@ -98,8 +103,8 @@ h4 {
 
 }
 img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   cursor: pointer;
 }
 .btn2 {
@@ -119,14 +124,16 @@ img {
   background-color: #000;
   color: #fff;
 }
+ 
 .btn5 {
-  border-radius: 50px;
+  border-radius: 15px;
   padding: 20px 40px;
   color: #27ae60;
   font-size: 20px;
   font-weight: 400;
   border: 5px solid #27ae601f;
   background: #fff;
+  text-align: center;
 }
 .back {
   height: 40vh;
@@ -167,9 +174,19 @@ img {
   .grid5 {
     grid-template-columns: repeat(1, 1fr);
   }
+  .grid3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gridf {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  
+  }
   .heading {
     width: 100%;
   }
+
   .container {
     max-width: 90%;
   }

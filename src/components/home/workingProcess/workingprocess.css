@@ -1,0 +1,111 @@
+.services-section-two {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0px 0;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #008383;
+}
+.workrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top: 35px;
+}
+
+.workcolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.workcontent {
+  text-align: center;
+}
+
+.workimage {
+  width: 110px;
+  height: 90px;
+  object-fit: cover;
+  
+}
+
+.workp {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainheading {
+  display: flex;
+  margin-top: 10;
+  margin-bottom: 10;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.workheading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fffdfd;
+  margin-bottom: 10px;
+}
+.workheading2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 1.8em;
+    margin-bottom: 25px;
+}
+.arrow {
+  width: 100px;
+  height: 50px;
+  stroke: #fffafa;
+  fill: none;
+}
+
+.arrow-left {
+  transform: rotate(180deg);
+}
+
+.arrow-right {
+  margin-top: 20px;
+}
+
+.arrow-left:not(:first-child),
+.arrow-right:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+element.style {
+  background-image: url(https://digitalterai.com/images/pattern-2.png);
+}
+
+@media (max-width: 768px) {
+  .workrow {
+    flex-direction: column;
+  }
+
+  .workcolumn {
+    margin-bottom: 40px;
+  }
+  .arrow {
+ display: none;
+  }
+  .connector::before,
+  .connector::after {
+    width: 40px;
+    height: 3px;
+
+  }
+}

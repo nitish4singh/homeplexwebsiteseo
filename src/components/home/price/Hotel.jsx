@@ -1,21 +1,19 @@
 import React from "react"
-import { price } from "../../data/Data"
+import { Hotel } from "../../data/Data"
 
-const PriceCard = () => {
+const HotelRestudent = () => {
   return (
     <>
       <div className='content flex mtop'>
-        {price.map((item, index) => (
+        {Hotel.map((item, index) => (
           <div className='box shadow' key={index}>
             <div className='topbtn'>
               <button className='btn3'>{item.best}</button>
             </div>
             <h3>{item.plan}</h3>
             <h1>
-              <span>$</span>
-              {item.price}
+                           Rs. {item.price}
             </h1>
-            <p>{item.ptext}</p>
 
             <ul>
               {item.list.map((val) => {
@@ -36,19 +34,17 @@ const PriceCard = () => {
               })}
             </ul>
             <button
-              className='btn5'
-              style={{
-                background: item.plan === "Standard" ? "#27ae60" : "#fff",
-                color: item.plan === "Standard" ? "#fff" : "#27ae60",
-              }}
+              className='button1'
             >
-              Start {item.plan}
+             Book Now
             </button>
           </div>
         ))}
       </div>
+
+      
     </>
   )
 }
 
-export default PriceCard
+export default HotelRestudent;

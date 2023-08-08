@@ -8,8 +8,8 @@ const Card = ({ cardItems }) => {
                <div className="experticon-container">
             <img src={item.cover} alt="Icon" />
           </div>
-          <h2>{item.heading}</h2>
-          <p>{item.subtitle}</p>
+          <div className='experth2'>{item.heading}</div >
+          <div className='expertp' >{item.subtitle}</div >
         </div>
       ))}
     </div>

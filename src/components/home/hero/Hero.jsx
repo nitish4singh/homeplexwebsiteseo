@@ -1,35 +1,34 @@
 import React from "react"
-import Heading from "../../common/Heading"
 import "./hero.css"
-
+import "../../pages/features/allpage.css"
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
-        <div className='container'>
-          <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
+      <section className='app'>
+      <div className="bannerhero">
+      <div className="column left">
+        <div className="heroheadingm ">
+    HomePlex Plumbing Service 
 
-          <form className='flex'>
-            <div className='box'>
-              <span>City/Street</span>
-              <input type='text' placeholder='Location' />
+</div>
+          <div className="heroheadingt">
+              Transform the way you work <br />
+              with a unique and powerful <br />
+              IT Solution to run your Entire <br />
+              Business.
             </div>
-            <div className='box'>
-              <span>Property Type</span>
-              <input type='text' placeholder='Property Type' />
-            </div>
-            <div className='box'>
-              <span>Price Range</span>
-              <input type='text' placeholder='Price Range' />
-            </div>
-            <div className='box'>
-              <h4>Advance Filter</h4>
-            </div>
-            <button className='btn1'>
-              <i className='fa fa-search'></i>
-            </button>
-          </form>
+            {/* plumber.png
+           */}
+      </div>
+      <div className="column right">
+        <div className="heroimg">
+        <div style={{ width: "80%"}}>
+        <img src="../images/list/plumber.png" />
+              </div>
         </div>
+    
+      </div>
+    </div>
       </section>
     </>
   )

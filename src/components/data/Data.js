@@ -26,114 +26,115 @@ export const nav = [
 ]
 
 
-
-
-
 export const featured = [
   {
-    cover: "../images/hero/h1.png",
+    cover: "../images/services/p1.png",
     name: "Plumber",
     total: "See Rate & Book",
     path: "/plumber",
   },
   {
-    cover: "../images/hero/h2.png",
+    cover: "../images/services/electician.png",
     name: "Electrician",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h4.png",
+    cover: "../images/services/applience.png",
     name: "Electrical Applience",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h3.png",
+    cover: "../images/services/motor.png",
     name: "Motor ",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h4.png",
+    cover: "../images/services/painter.png",
     name: "Painting",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h6.png",
+    cover: "../images/services/carpenter.png",
     name: "Carpenter",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h6.png",
+    cover: "../images/services/naksa.png",
     name: "Ghar Naksa",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h6.png",
+    cover: "../images/services/interiordesign.png",
     name: "Interior Design",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h6.png",
+    cover: "../images/services/2d3d.png",
     name: "2d /3d Design",
     total: "See Rate & Book",
     path: "/contact",
   },
   {
-    cover: "../images/hero/h6.png",
+    cover: "../images/services/civil.png",
     name: "Civil Consultancy",
     total: "See Rate & Book",
     path: "/contact",
   },
 ]
+
+
 export const clientWork = [
   {
     id: 1,
-    cover: "../images/list/p-1.png",
-    name: "House Construction With Material",
-    location: "Inside Kathmandu velly",
-    category: "Price Varies  According to Your desire Materies",
-    price: "Rs 3200 -5000",
+    cover: "../images/list/shouse.jpeg",
+    name: "Homeplex completed a construction project",
+    location: "At Gwarko",
   },
   {
     id: 2,
-    cover: "../images/list/p-2.png",
-    name: "labour Civil Construction only Structural ",
-    location: "Inside Kathmandu velly",
-    category: "Expert painting ,Electical ,tiles Marble,plumber",
-    price: "Rs.430-460",
+    cover: "../images/list/interior1.jpeg",
+    name: "Homeplex engineer design the living Room",
+    location: "At Gwarko",
   
   },
   {
-    id: 6,
-    cover: "../images/list/p-6.png",
-    name: "labour Civil Construction only Structural ",
-    location: "Inside Kathmandu velly",
-    category: "Soil Testing ,Material testing,Custom home building,Commercial Construction,Residential remodelling,Concrete and masonry work,Electrical and plumbing work,Project management and consulting,Interior Design etc",
-    price: "Contact Us",
+    id: 3,
+    cover: "../images/list/false.jpeg",
+    name: "Homeplex False celling design  ",
+    location: "At Gwarko",
    
   },
+  {
+    id: 6,
+    cover: "../images/list/l2.jpeg",
+    name: "Homeplex upstairs design  ",
+    location: "At Gwarko",
+   
+  },
+
   
 ]
 
 export const list = [
   {
     id: 1,
-    cover: "../images/list/p-1.png",
+    cover: "../images/list/chouse.jpg",
     name: "House Construction With Material",
     location: "Inside Kathmandu velly",
-    category: "Price Varies  According to Your desire Materies",
+    category: "Price Varies  According to Your desire Materials",
     price: "Rs 3200 -5000",
   },
   {
     id: 2,
-    cover: "../images/list/p-2.png",
-    name: "labour Civil Construction only Structural ",
+    cover: "../images/list/inhouse.png",
+    name: "Building Construction (Foundation ,pillers,walls ,slab & beams,UnderGround Watetank & septic Tank) with plaster  Labour Cost only",
     location: "Inside Kathmandu velly",
     category: "Expert painting ,Electical ,tiles Marble,plumber",
     price: "Rs.430-460",
@@ -143,8 +144,8 @@ export const list = [
 
 
   {
-    id: 6,
-    cover: "../images/list/p-6.png",
+    id: 3,
+    cover: "../images/list/civilwork.jpeg",
     name: "",
     location: "Inside Kathmandu velly",
     category: "Soil Testing ,Material testing,Custom home building,Commercial Construction,Residential remodelling,Concrete and masonry work,Electrical and plumbing work,Project management and consulting,Interior Design etc",
@@ -228,13 +229,13 @@ export const location = [
 export const team = [
   {
     list: "70",
-    cover: "../images/customer/team-2.jpg",
+    cover: "../images/customer/ashok.jpeg",
     address: "Experience in Civil  Work 32 yrs",
     name: "Er.Ashok Tiwari",
     
   },
   {
-       cover: "../images/customer/team-1.jpg",
+       cover: "../images/customer/pridep.jpeg",
     address: "Experience in Civil  Work 35 yrs ",
     name: "Er.Pradip Shrestha",
     
@@ -242,7 +243,7 @@ export const team = [
 
   {
     list: "80",
-    cover: "../images/customer/team-3.jpg",
+    cover: "../images/customer/satendra.png",
     address: "Experince In Construction Work 20 yrs",
     name: "Er.Satendra Yadav",
     
@@ -250,95 +251,350 @@ export const team = [
 
   {
     list: "80",
-    cover: "../images/customer/team-3.jpg",
+    cover: "../images/customer/anil.png",
     address: "Experince In constructuion Work 10 yrs",
     name: "Anil Kuwar",
     
   },
- 
-
- 
- 
 ]
 export const price = [
   {
-    plan: "Basic",
-    price: "29",
-    ptext: "per user, per month",
+    plan: "Residential Basic plan",
+    price: "8000",
+    ptext: "per house, per year",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
+        text: "12 visit per year ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
+        text: "2 Routine /Normal visit per year free",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
+        text: "1 hrs 30 min Response time",
       },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
+      {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "one visit Working time 2 hrs 30 Min ",
+      },
+      {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Working hrs 7.00 am to 7.00 pm",
+      },
+      {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Expert Plumber & Electrician ",
+      },
+
+      {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Only plumbing & Electrical Work Repair & Maintenance ",
+      },
+  
+
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
     ],
   },
   {
-    best: "Best Value",
-    plan: "Standard",
-    price: "49",
-    ptext: "per user, per month",
+    best: "Best Package",
+    plan: "Residential Stander plan",
+    price: "10000",
+    ptext: "per Year, per House",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
+        text: "15 visit per year ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
+        text: "1 hrs 30 min Response time",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
+        text: "one visit Working time 2 hrs 30 Min ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
+        text: "Working hrs 7.00 am to 7.00 pm",
       },
       {
-        change: "color",
-        icon: <i class='fa-solid fa-x'></i>,
-        text: "Enterprise SLA",
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Expert Plumber & Electrician ",
       },
+      {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Only plumbing & Electrical Work Work Repair & Maintenance ",
+      },
+      {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Free one time Over Head Tank Cleaning of 1000 liters ",
+      },
+
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
     ],
   },
   {
-    plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
+    plan: "Residential Flat plan",
+    price: "5000",
+    ptext: "Per Year, Houses",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "100% Uptime Guarantee",
+        text: "6 visit per year ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
+        text: "1 hrs 30 min Response time",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
+        text: "one visit Working time 1 hrs 30 Min ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
+        text: "Working hrs 7.00 am to 7.00 pm",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Enterprise SLA",
+        text: "Expert Plumber & Electrician ",
       },
+      {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Only plumbing & Electrical Work Repair & Maintenance ",
+      },
+
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
     ],
   },
-]
+  ]
+
+
+
+
+  export const office = [
+    {
+      plan: "Institutes / Office  Basic plan",
+      price: "12000",
+      ptext: "per year, INSTITUTES / OFFICES",
+      list: [
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "14 visit per year ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "1 hrs  Response time",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "one visit Working time 2 hrs 30 Min ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Working hrs 7.00 am to 7.00 pm",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Expert Plumber & Electrician ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Only plumbing & Electrical Work Repair & Maintenance ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Free one time Over Head Tank Cleaning of 1000 liters ",
+        },
+  
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+      ],
+    },
+    {
+      best: "Best Package",
+      plan: "Institutes /Office  Stander Plan",
+      price: "15000",
+      ptext: "per Year, per office",
+      list: [
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "18 visit per year ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "1 hrs Response time",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "one visit Working time 2 hrs 30 Min ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Working hrs 7.00 am to 7.00 pm",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Expert Plumber & Electrician ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Only plumbing & Electrical Work Repair & Maintenance ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Free one time Over Head Tank Cleaning of 2000 liters ",
+        },
+  
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+      ],
+    },
+    {
+      plan: "Institutes / Office Plan",
+      price: "18000",
+      ptext: "Per Year, INSTITUTES / OFFICES",
+      list: [
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "25 visit per year ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "1 hrs Response time",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "one visit Working time 2 hrs 30 Min ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Working hrs 7.00 am to 7.00 pm",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Expert Plumber & Electrician ",
+        },
+        {
+          icon: <i class='fa-solid fa-check'></i>,
+          text: "Only plumbing & Electrical Work Repair & Maintenance ",
+        },
+  
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+      ],
+    },
+    ]
+
+    export const Hotel = [
+      {
+        plan: "Hotel & Resturants Basic plan",
+        price: "5000",
+        ptext: "per year, Hotel & Resturants",
+        list: [
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "6 visit per month ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "1 hrs 30 min Response time",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "one visit Working time 1 hr 30 min ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Working hrs 7.00 am to 9.00 pm",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Expert Plumber & Electrician ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Only plumbing & Electrical Work Work Repair & Maintenance ",
+          },
+       
+    
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+        ],
+      },
+      {
+        best: "Best package",
+        plan: "Hotel & Resturants Stander plan",
+        price: "8000",
+        ptext: "per month, per office",
+        list: [
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "12 visit per month ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "1 hrs 30 min Response time",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "one visit Working time 2hrs ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Working hrs 7.00 am to 9.00 pm",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Expert Plumber & Electrician ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Only plumbing & Electrical Work Repair & Maintenance ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Free one time Over Head Tank Cleaning of 1000 liters ",
+          },
+    
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+        ],
+      },
+      {
+        plan: "Hotel & Resturants Stander plan",
+        price: "30000",
+        ptext: "Per Year, INSTITUTES / OFFICES",
+        list: [
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "36 visit per year ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "1 hrs 30 min Response time",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "one visit Working time 2hrs ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Working hrs 7.00 am to 9.00 pm",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Expert Plumber & Electrician ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Only plumbing & Electrical Work Repair & Maintenance ",
+          },
+          {
+            icon: <i class='fa-solid fa-check'></i>,
+            text: "Free one time Over Head Tank Cleaning of 1000 liters ",
+          },
+    
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+        ],
+      },
+      ]
 export const footer = [
   {
     title: "LAYOUTS",
