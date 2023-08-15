@@ -10,6 +10,16 @@ import Services from "../services/Services"
 import Contact from "../contact/Contact"
 import Plumber from "./plumber/Plumber"
 
+import MotorService from "./motor/Motor"
+import Painting from "./Painting/Painting"
+import InteriorDesign from "./InteriorDesign/InteriorDesisgn"
+import GharNaska from "./GharNaska/GharNaska"
+import Electrician from "./Electrician/Electrician"
+import Design from "./design/Design"
+import Consultency from "./civilConsulteancy/consultency"
+import Carpenter from "./carpenter/carpenter"
+import Applience from "./Applience/applience"
+
 const Pages = () => {
   return (
     <>
@@ -22,7 +32,16 @@ const Pages = () => {
           <Route exact path='/blog' element={<Blog/>} />
           <Route exact path='/pricing' element={<Pricing/>} />
           <Route exact path='/contact' element={<Contact/>} />
-          <Route exact path='/plumber' element={<Plumber/>} />
+          <Route exact path='/motorService' element={<MotorService/>} />
+          <Route exact path='/interiorDesign' element={<InteriorDesign/>} />
+          <Route exact path='/gharNaska' element={<GharNaska/>} />
+          <Route exact path='/painting' element={<Painting/>} />
+          <Route exact path='/electrician' element={<Electrician/>} />
+          <Route exact path='/design' element={<Design/>} />
+           <Route exact path='/consultency' element={<Consultency/>} />
+           <Route exact path='/carpenter' element={<Carpenter/>} />
+           <Route exact path='/applience' element={<Applience/>} />
+           <Route exact path='/plumber' element={<Plumber/>} />
         </Routes>
         <Footer />
       </Router>

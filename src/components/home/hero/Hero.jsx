@@ -1,37 +1,68 @@
-import React from "react"
-import "./hero.css"
-import "../../pages/features/allpage.css"
+import React, { useState, useEffect } from "react";
+import "./hero.css";
+import { Typewriter } from "react-simple-typewriter";
+import Parrot from "./h.json";
+import Lottie from "lottie-react";
+
 const Hero = () => {
   return (
     <>
-      <section className='app'>
-      <div className="bannerhero">
+    <div className="bannerhero">
       <div className="column left">
-        <div className="heroheadingm ">
-    HomePlex Plumbing Service 
-
+        <div className="heroheadingmf">
+        <Typewriter
+                words={["WELCOME TO Homeplex."]}
+                loop
+                cursor
+                cursorStyle="|"
+                typeSpeed={80}
+                deleteSpeed={70}
+                delaySpeed={1000}
+              />
 </div>
-          <div className="heroheadingt">
-              Transform the way you work <br />
-              with a unique and powerful <br />
-              IT Solution to run your Entire <br />
-              Business.
+          <div className="heroheadingtf">
+             Change the way  <br />
+              of Calling the  Handyman <br />
+            Services<br />
             </div>
-            {/* plumber.png
-           */}
+        <div className="herobuttonf">
+              <button className="herobuttonf">
+              <li>
+              <a href="/service"> Get Started <i className="fa fa-long-arrow-alt-right"></i></a>
+                </li>
+              </button>
+              
+            </div>
+          
       </div>
       <div className="column right">
-        <div className="heroimg">
-        <div style={{ width: "80%"}}>
-        <img src="../images/list/plumber.png" />
+        <div className="heroimgf">
+        <div style={{ width: "90%"}}>
+                <Lottie loop={true} animationData={Parrot} />
               </div>
         </div>
     
       </div>
     </div>
-      </section>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

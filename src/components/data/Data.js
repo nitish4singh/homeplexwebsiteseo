@@ -37,55 +37,50 @@ export const featured = [
     cover: "../images/services/electician.png",
     name: "Electrician",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/electrician",
   },
   {
     cover: "../images/services/applience.png",
     name: "Electrical Applience",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/applience",
   },
   {
     cover: "../images/services/motor.png",
     name: "Motor ",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/motorService",
   },
   {
     cover: "../images/services/painter.png",
     name: "Painting",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/painting",
   },
   {
     cover: "../images/services/carpenter.png",
     name: "Carpenter",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/carpenter",
   },
   {
     cover: "../images/services/naksa.png",
     name: "Ghar Naksa",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/gharNaska",
   },
   {
     cover: "../images/services/interiordesign.png",
     name: "Interior Design",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/interiorDesign",
   },
-  {
-    cover: "../images/services/2d3d.png",
-    name: "2d /3d Design",
-    total: "See Rate & Book",
-    path: "/contact",
-  },
+
   {
     cover: "../images/services/civil.png",
-    name: "Civil Consultancy",
+    name: "Construction Service",
     total: "See Rate & Book",
-    path: "/contact",
+    path: "/consultency",
   },
 ]
 
@@ -292,9 +287,12 @@ export const price = [
         icon: <i class='fa-solid fa-check'></i>,
         text: "Only plumbing & Electrical Work Repair & Maintenance ",
       },
-  
 
       { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },
     ],
   },
   {
@@ -333,7 +331,10 @@ export const price = [
       },
 
       { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-    ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },],
   },
   {
     plan: "Residential Flat plan",
@@ -366,7 +367,10 @@ export const price = [
       },
 
       { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-    ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },],
   },
   ]
 
@@ -409,7 +413,10 @@ export const price = [
         },
   
         { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-      ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },  ],
     },
     {
       best: "Best Package",
@@ -447,7 +454,10 @@ export const price = [
         },
   
         { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-      ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },  ],
     },
     {
       plan: "Institutes / Office Plan",
@@ -480,7 +490,10 @@ export const price = [
         },
   
         { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-      ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },  ],
     },
     ]
 
@@ -517,7 +530,10 @@ export const price = [
        
     
           { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-        ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },    ],
       },
       {
         best: "Best package",
@@ -555,7 +571,10 @@ export const price = [
           },
     
           { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-        ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },    ],
       },
       {
         plan: "Hotel & Resturants Stander plan",
@@ -592,10 +611,17 @@ export const price = [
           },
     
           { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
-        ],
+       {
+        icon: <i class='fa-solid fa-check'></i>,
+        text: "Includes Tearms & Conditions. ",
+      },    ],
       },
       ]
 export const footer = [
+  {
+    title: "LAYOUTS",
+    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+  },
   {
     title: "LAYOUTS",
     text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],

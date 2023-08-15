@@ -3,7 +3,7 @@ import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
 
-const Plumber = () => {
+const Electrician = () => {
     const images = [
       {
         id: 1,
@@ -15,7 +15,7 @@ const Plumber = () => {
         imageUrl: '../images/banner.png',
         title: 'Image 2',
       },
-    ];
+          ];
   
 
   const servicesData = [
@@ -44,135 +44,113 @@ const Plumber = () => {
       imageSrc: '../images/24hrs.png',
     },
   ];
-
-  const NewpriceList = [
-    {
-      title: 'Double line bathroom fitting',
-      subtitle: 'sanitary & c.p fiftting for bathroom ',
-      extra:"per Point",
-      price: '10000 -13000',
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Double line kitchen fitting ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 400,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Single line bathroom fitting  ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 7000,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Single line kitchen fitting',
-      subtitle: 'New Replacement or Installation ',
-      extra:"per Point",
-      price: 2500,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Roof top tank fitting ',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 3000,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Water pump fitting ',
-      subtitle: 'water pump fitting & suction pipe line connection',
-      extra:"per Point",
-      price: 2500,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Extra basin fitting',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 1300,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Extra toilet fitting',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 3000,
-      imageUrl: '../images/list/p-6.png',
-    },
-  ];
-
   const priceList = [
     {
-      title: 'Common Repair & maintanance',
-      subtitle: 'Price for a single, simple repair is 500 for one point, and for the other point',
+      title: 'Installation / replace bulbs or tubelight',
+      subtitle: 'Light point fitting /Holder repair and replacement / power Socket / energy meter',
       extra:"per Point",
-      price: 200,
-      imageUrl: '../images/pipe.png',
+      price: 325,
+      imageUrl: '../images/list/p-6.png',
     },
     {
-      title: 'Tap installation ',
-      subtitle: 'New Installation',
+      title: 'Installation of decortive light',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 375,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: '2x2 Light Replacement',
+      subtitle: 'Includes light installation with wiring upto 7 meter',
+      extra:"per Point",
+      price: 320,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Focus Light Installation',
+      subtitle: 'Includes light installation with wiring upto 7 meter',
+      extra:"per Point",
+      price: 550 ,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Install / Replace or Repair Power Socket ',
+      subtitle: 'Includes power socket and PVC box installation ',
       extra:"per Point",
       price: 400,
-      imageUrl: './faucet.png',
-    },
-    {
-      title: 'Tap Water Blockage ',
-      subtitle: 'Low Pressure in tap',
-      extra:"per Point",
-      price: 2400,
       imageUrl: '../images/list/p-6.png',
     },
     {
-      title: 'flush tank replacement simple',
-      subtitle: 'New Replacement or Installation ',
+      title: 'Install / Repair / Replace Switch board',
+      subtitle: 'Repair or replacement of waste pipe per piece',
       extra:"per Point",
-      price: 800,
+      price: 520,
       imageUrl: '../images/list/p-6.png',
     },
     {
-      title: 'Urinal Flush ',
-      subtitle: 'blockage,repair,leackage',
+      title: 'Telephone Socket Installation',
+      subtitle: 'Repair or replacement ',
       extra:"per Point",
-      price: 800,
+      price: 500,
       imageUrl: '../images/list/p-6.png',
     },
     {
-      title: 'Over Head Tank Cleaning',
-      subtitle: 'up to 1000 ltr',
-      extra:"per number",
-      price: 2000,
+      title: 'SP / DP MCB Installation ',
+      subtitle: 'Includes MCB Intallation with wiring',
+      extra:"per Point",
+      price: 520,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'TPN Fuse, MCB repair and replacement three phase',
+      subtitle: 'Includes MCB change or distribution board wire issue',
+      extra:"per Point",
+      price: 700,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Energy meter Installation / Replacement  single phase',
+      subtitle: 'Includes Energy Meter install with wiring ',
+      extra:"per Point",
+      price: '520 / 300',
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: ' Fan Installation ',
+      subtitle: 'Celling fan /Wall Fan installation and regulator with wiring  ',
+      extra:"per Point",
+      price: '520',
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Inverter Installation (12v) / (24v)',
+      subtitle: 'inverter connection and supply ',
+      extra:"per Point",
+      price: '550',
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Television Installation',
+      subtitle: 'inverter connection and supply ',
+      extra:"per Point",
+      price: '1000 / 1500',
       imageUrl: '../images/list/p-6.png',
     },
 
-    {
-      title: 'Solar Tube Replacement',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 1400,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Shower Head Installation',
-      subtitle: ' ',
-      extra:"per Point",
-      price: 350,
-      imageUrl: '../images/list/p-6.png',
-    },
   ];
 
 
   return (
     <div className="app">
+
+
+
       <div className="row">
       <div className="column ">
         <FormCard />
         </div>
         <div className="column">
-        <div className='pageheading'> Why Homeplex plumber? </div>
+        <div className='pageheading'> Why Homeplex Electrician? </div>
         <div>
             {servicesData.map(service => (
               <div key={service.id} className="service-item">
@@ -206,23 +184,6 @@ const Plumber = () => {
         </div>
         </div>
         <div className='headingall'>
-        New Replacement or Installation
-        </div>
-        <div className="column ">
-        <div className="price-list">
-          {NewpriceList.map((item, index) => (
-            <PriceCard
-              key={index}
-              title={item.title}
-              subtitle={item.subtitle}
-              price={item.price}
-              extra={item.extra}
-              imageUrl={item.imageUrl}
-            />
-          ))}
-        </div>
-        </div>
-        <div className='headingall'>
          Our Works 
         </div>
         <div className="card-container">
@@ -240,4 +201,4 @@ const Plumber = () => {
   );
 };
 
-export default Plumber;
+export default Electrician;

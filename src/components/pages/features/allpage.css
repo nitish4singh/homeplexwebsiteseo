@@ -2,17 +2,6 @@
 /* Base styles for the banner */
 
 
-.bannerhero {
-  background-color: #34adb1; 
-  background-image: url(https://digitalterai.com/images/pattern-3.png); 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  color: white;
-
-}
 
 .column {
   flex-basis: 50%;
@@ -25,38 +14,7 @@
 .column.right {
   padding-left: 30px;
 }
-.heroimg {
-  height: 90%;
-  margin-top: 100px;
-  overflow: hidden;
-  }
-.herobutton {
-  color: #1eb2a6;
-  font-weight: 600;
-  border: none;
-  margin: 3px 10px 0 0;
-  border-radius: 3px;
-  cursor: pointer;
-  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
-  transition: 0.5s;
-}
-.heroheadingt {
-  position: relative;
-  color: #ffffff;
-  font-size: 25px;
-  line-height: 1.6em;
-  font-weight: 600px;
-  padding: 10px;
-}
-.heroheadingm {
-  padding-top: 23%;
-  position: relative;
-  color: #ffffff;
-  font-size: 32px;
-  font-weight: 600px;
-  font-weight: bold;
-  padding-bottom: 10px;
- }
+
 /* Flex container for cards */
 .row {
   display: flex;
@@ -77,6 +35,15 @@
   font-weight: bold;
   padding-bottom: 10px;
  }
+ .pageheading2 {
+  padding-top: 5%;
+  position: relative;
+  color: #070707;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: center;
+ }
 .serviceh2{
   font-size: 15px;
   margin: 10px;
@@ -84,23 +51,30 @@
   font-style: bold;
   text-align: center;
 }
-
+.serviceh3{
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+}
 .servicep{
   font-size: 12px;
-  margin: 10px;
+margin-top: -10px;
   text-align: center;
   font-weight: 600;
 }
-
-
 
 /* Styles for each service item */
 .service-item {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-
+.service-item2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 140px;
+}
 .service-item img {
   width: 60px;
   height: 60px;
@@ -128,21 +102,20 @@
   background-color: #f8f7f7;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: auto;
+  padding: 8px;
+  max-width: 600px;
   text-align: center;
 }
-
 .rateh2{
   font-size: 16px;
-  margin: 10px;
+  margin: 8px;
   font-weight: 600;
   font-style: bold;
   text-align: center;
 }
 .extrah{
-  font-size: 12px;
-  margin: 10px;
+  font-size: 9px;
+  margin: 8px;
   font-weight: 600;
   color: rgb(77, 76, 75);
   font-style: bold;
@@ -157,9 +130,35 @@
   text-align: center;
 }
 
+
+.allform {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.allform input,
+.allform textarea {
+  width: 100%;
+  padding: 15px; /* Adjusted padding for larger input size */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px; /* Adjusted font size for larger input size */
+}
+
+.allform textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.allform input[type="text"],
+.allform input[type="tel"] {
+  outline: none;
+}
+
+
 .rateprice{
   font-size: 18px;
-  margin: 10px;
+ margin-top: -4px;
   font-weight: 600;
   color: rgb(226, 19, 19);
   font-style: bold;
@@ -313,7 +312,11 @@
     flex-direction: column;
     /* align-items: flex-start; */
     margin-bottom: 10px;
+    display: none;
   }
+  .pageheading {
+ display: none;
+}
 
   .contactcard {
     background-color: #edf3f3;
@@ -333,7 +336,20 @@
   .service-item h4 {
     font-size: 16px;
   }
-
+  .ratecard {
+    background-color: #f8f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    max-width: auto;
+    text-align: center;
+  }
+  .serviceh3{
+    font-size: 16px;
+    margin: 5px;
+    font-style: bold;
+    text-align: center;
+  }
   .serviceh2{
     font-size: 16px;
     margin: 10px;
@@ -341,7 +357,12 @@
     font-style: bold;
     text-align: center;
   }
-  
+
+  .service-item2 {
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
   .servicep{
     font-size: 11px;
     margin: 10px;

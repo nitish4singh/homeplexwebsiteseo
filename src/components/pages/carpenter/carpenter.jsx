@@ -3,7 +3,7 @@ import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
 
-const Plumber = () => {
+const Carpenter = () => {
     const images = [
       {
         id: 1,
@@ -15,7 +15,7 @@ const Plumber = () => {
         imageUrl: '../images/banner.png',
         title: 'Image 2',
       },
-    ];
+          ];
   
 
   const servicesData = [
@@ -44,135 +44,127 @@ const Plumber = () => {
       imageSrc: '../images/24hrs.png',
     },
   ];
-
-  const NewpriceList = [
-    {
-      title: 'Double line bathroom fitting',
-      subtitle: 'sanitary & c.p fiftting for bathroom ',
-      extra:"per Point",
-      price: '10000 -13000',
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Double line kitchen fitting ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 400,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Single line bathroom fitting  ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 7000,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Single line kitchen fitting',
-      subtitle: 'New Replacement or Installation ',
-      extra:"per Point",
-      price: 2500,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Roof top tank fitting ',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 3000,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Water pump fitting ',
-      subtitle: 'water pump fitting & suction pipe line connection',
-      extra:"per Point",
-      price: 2500,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Extra basin fitting',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 1300,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Extra toilet fitting',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 3000,
-      imageUrl: '../images/list/p-6.png',
-    },
-  ];
-
   const priceList = [
     {
-      title: 'Common Repair & maintanance',
-      subtitle: 'Price for a single, simple repair is 500 for one point, and for the other point',
-      extra:"per Point",
-      price: 200,
-      imageUrl: '../images/pipe.png',
-    },
-    {
-      title: 'Tap installation ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 400,
-      imageUrl: './faucet.png',
-    },
-    {
-      title: 'Tap Water Blockage ',
-      subtitle: 'Low Pressure in tap',
-      extra:"per Point",
-      price: 2400,
+      title: 'modular kitchen daraz fitting',
+      subtitle: 'Only Labour Charge',
+      extra:"Sq Feet",
+      price: 550,
       imageUrl: '../images/list/p-6.png',
     },
     {
-      title: 'flush tank replacement simple',
-      subtitle: 'New Replacement or Installation ',
-      extra:"per Point",
-      price: 800,
+      title: 'modular kitchen daraz fitting',
+      subtitle: 'With material Charge',
+      extra:"Sq Feet",
+      price: "2200-3200",
       imageUrl: '../images/list/p-6.png',
     },
     {
-      title: 'Urinal Flush ',
-      subtitle: 'blockage,repair,leackage',
-      extra:"per Point",
-      price: 800,
+      title: 'Modern bed ',
+      subtitle: 'Only Labour Charge',
+      extra:"Sq Feet",
+      price: 650,
       imageUrl: '../images/list/p-6.png',
     },
     {
-      title: 'Over Head Tank Cleaning',
-      subtitle: 'up to 1000 ltr',
-      extra:"per number",
+      title: 'Door fitting simple with lock without listi',
+      subtitle: 'Only Labour Charge',
+      extra:"Nos",
+      price: 1200,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Door fitting simple with lock with  listi',
+      subtitle: 'Only Labour Charge',
+      extra:"Nos",
+      price: 1500,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Door fitting simple with door hinges',
+      subtitle: 'Only Labour Charge',
+      extra:"Nos",
+      price: 1000,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'computer table ',
+      subtitle: 'Only Labour Charge',
+      extra:"Sq Feet",
+      price: 550,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: ' jhal chaukas ',
+      subtitle: 'Only Labour Charge',
+      extra:"Kb",
+      price: 550,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Door sadha khapa',
+      subtitle: 'Only Labour Charge',
+      extra:"Sq Feet",
+      price: 150,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Door check khapa  ',
+      subtitle: 'Only Labour Charge',
+      extra:"Sq Feet",
+      price: 300,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'simple chair',
+      subtitle: 'Only Labour Charge',
+      extra:"Sq Feet",
+      price: 1500,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Simple Table',
+      subtitle: 'Lenght 3ft width ft heigth 2.6ft with four legs',
+      extra:"Nos",
       price: 2000,
       imageUrl: '../images/list/p-6.png',
     },
+    {
+      title: 'wood parketing ',
+      subtitle: 'Only Labour Charge',
+      extra:"Sq Feet",
+      price: 50,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'stair case railing siso wood',
+      subtitle: 'Lenght 3ft width ft heigth 2.6ft with four legs , labour charge only ',
+      extra:"Running feet",
+      price: 750,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'stair case railing sallo wood ',
+      subtitle: 'Only Labour Charge',
+      extra:"Running feet",
+      price: 550,
+      imageUrl: '../images/list/p-6.png',
+    },
 
-    {
-      title: 'Solar Tube Replacement',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 1400,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Shower Head Installation',
-      subtitle: ' ',
-      extra:"per Point",
-      price: 350,
-      imageUrl: '../images/list/p-6.png',
-    },
   ];
 
 
   return (
     <div className="app">
+
+
+
       <div className="row">
       <div className="column ">
         <FormCard />
         </div>
         <div className="column">
-        <div className='pageheading'> Why Homeplex plumber? </div>
+        <div className='pageheading'> Why Homeplex Carpenter? </div>
         <div>
             {servicesData.map(service => (
               <div key={service.id} className="service-item">
@@ -188,29 +180,14 @@ const Plumber = () => {
         </div>
         </div>
 
+
+
         <div className='headingall'>
           See Our Rates
         </div>
         <div className="column ">
         <div className="price-list">
           {priceList.map((item, index) => (
-            <PriceCard
-              key={index}
-              title={item.title}
-              subtitle={item.subtitle}
-              price={item.price}
-              extra={item.extra}
-              imageUrl={item.imageUrl}
-            />
-          ))}
-        </div>
-        </div>
-        <div className='headingall'>
-        New Replacement or Installation
-        </div>
-        <div className="column ">
-        <div className="price-list">
-          {NewpriceList.map((item, index) => (
             <PriceCard
               key={index}
               title={item.title}
@@ -240,4 +217,4 @@ const Plumber = () => {
   );
 };
 
-export default Plumber;
+export default Carpenter;

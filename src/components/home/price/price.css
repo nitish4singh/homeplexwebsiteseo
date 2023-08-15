@@ -54,12 +54,26 @@ font-weight: 500;
   
 }
 
+.popup{
+  height: 400px;
+  width: 50%;
+  background-color: aliceblue;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+.popup-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 15px;
+  border-bottom:2px solid black ;
+}
 .price .button1 {
   margin-top: 20px;
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -71,6 +85,31 @@ font-weight: 500;
 .button1:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #dce6dd;
+}
+
+.modal-container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  max-width: 30rem;
+  background-color: azure;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+}
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
 

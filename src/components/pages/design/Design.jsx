@@ -3,7 +3,7 @@ import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
 
-const Plumber = () => {
+const Design = () => {
     const images = [
       {
         id: 1,
@@ -15,7 +15,7 @@ const Plumber = () => {
         imageUrl: '../images/banner.png',
         title: 'Image 2',
       },
-    ];
+          ];
   
 
   const servicesData = [
@@ -44,135 +44,92 @@ const Plumber = () => {
       imageSrc: '../images/24hrs.png',
     },
   ];
-
-  const NewpriceList = [
-    {
-      title: 'Double line bathroom fitting',
-      subtitle: 'sanitary & c.p fiftting for bathroom ',
-      extra:"per Point",
-      price: '10000 -13000',
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Double line kitchen fitting ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 400,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Single line bathroom fitting  ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 7000,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Single line kitchen fitting',
-      subtitle: 'New Replacement or Installation ',
-      extra:"per Point",
-      price: 2500,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Roof top tank fitting ',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 3000,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Water pump fitting ',
-      subtitle: 'water pump fitting & suction pipe line connection',
-      extra:"per Point",
-      price: 2500,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Extra basin fitting',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 1300,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Extra toilet fitting',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 3000,
-      imageUrl: '../images/list/p-6.png',
-    },
-  ];
-
   const priceList = [
     {
-      title: 'Common Repair & maintanance',
-      subtitle: 'Price for a single, simple repair is 500 for one point, and for the other point',
-      extra:"per Point",
-      price: 200,
-      imageUrl: '../images/pipe.png',
-    },
-    {
-      title: 'Tap installation ',
-      subtitle: 'New Installation',
-      extra:"per Point",
-      price: 400,
-      imageUrl: './faucet.png',
-    },
-    {
-      title: 'Tap Water Blockage ',
-      subtitle: 'Low Pressure in tap',
-      extra:"per Point",
-      price: 2400,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'flush tank replacement simple',
-      subtitle: 'New Replacement or Installation ',
-      extra:"per Point",
-      price: 800,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Urinal Flush ',
-      subtitle: 'blockage,repair,leackage',
-      extra:"per Point",
-      price: 800,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Over Head Tank Cleaning',
-      subtitle: 'up to 1000 ltr',
-      extra:"per number",
-      price: 2000,
-      imageUrl: '../images/list/p-6.png',
-    },
-
-    {
-      title: 'Solar Tube Replacement',
-      subtitle: 'New Replacement or Installation',
-      extra:"per Point",
-      price: 1400,
-      imageUrl: '../images/list/p-6.png',
-    },
-    {
-      title: 'Shower Head Installation',
-      subtitle: ' ',
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
       extra:"per Point",
       price: 350,
       imageUrl: '../images/list/p-6.png',
     },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+    {
+      title: 'Waste Pipe Leakage',
+      subtitle: 'Repair or replacement of waste pipe per piece',
+      extra:"per Point",
+      price: 350,
+      imageUrl: '../images/list/p-6.png',
+    },
+
   ];
 
 
   return (
     <div className="app">
+
+
+
       <div className="row">
       <div className="column ">
         <FormCard />
         </div>
         <div className="column">
-        <div className='pageheading'> Why Homeplex plumber? </div>
+        <div className='pageheading'> Why Homeplex Design? </div>
         <div>
             {servicesData.map(service => (
               <div key={service.id} className="service-item">
@@ -206,23 +163,6 @@ const Plumber = () => {
         </div>
         </div>
         <div className='headingall'>
-        New Replacement or Installation
-        </div>
-        <div className="column ">
-        <div className="price-list">
-          {NewpriceList.map((item, index) => (
-            <PriceCard
-              key={index}
-              title={item.title}
-              subtitle={item.subtitle}
-              price={item.price}
-              extra={item.extra}
-              imageUrl={item.imageUrl}
-            />
-          ))}
-        </div>
-        </div>
-        <div className='headingall'>
          Our Works 
         </div>
         <div className="card-container">
@@ -240,4 +180,4 @@ const Plumber = () => {
   );
 };
 
-export default Plumber;
+export default Design;

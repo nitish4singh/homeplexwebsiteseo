@@ -1,67 +1,86 @@
-.hero {
-  background-image: url("../../../../public/images/banner.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 90vh;
-  width: 100%;
-}
-.hero .container {
-  padding-top: 15%;
-}
-.hero h1 {
-  color: #fff;
-  font-size: 60px;
-}
-.hero p {
-  color: #fff;
-  opacity: 0.8;
-}
-form {
-  background-color: #fff;
-  border-radius: 5px;
-  margin-top: 20px;
-  
-}
-form input {
+
+
+/* Banner.css */
+.bannerhero {
+  background-color: #035b5bf7; 
+  /* background-image: url(./ban2.png);  */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   padding: 10px;
-  width: 100%;
-  border: 1px solid rgba(128, 128, 128, 0.2);
-  margin-top: 5px;
-  border-radius: 5px;
-  height:60px;
-  
+  color: white;
+
 }
-form span {
-  font-size: 18px;
-  color: grey;
+.column {
+  flex-basis: 50%;
 }
-input::placeholder {
-  font-size: 17px;
-  color: black;
+
+.column.left {
+  text-align: center;
 }
-form .box {
-  padding: 12px;
-  border-left: 1px solid rgba(128, 128, 128, 0.2);
+
+.column.right {
+  padding-left: 30px;
 }
-form .box:nth-child(1) {
-  border-left: none;
-}
-form h4 {
-  font-weight: 500;
-}
-@media screen and (max-width: 800px) {
-  .hero .container {
-    padding-top: 30%;
+.heroimg {
+  height: 90%;
+  margin-top: 100px;
+  overflow: hidden;
   }
-  form {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  form .box {
-    border-left: none;
-  }
-  form input {
-    width: 100%;
-  }
+.herobuttonf {
+  color: #0a8ca0;
+  font-weight: 600;
+  border: none;
+  margin: 3px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
 }
+.heroheadingtf {
+  position: relative;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1.6em;
+  font-weight: 600px;
+  padding: 10px;
+}
+.heroheadingmf {
+  padding-top: 25%;
+  position: relative;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600px;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .bannerhero {
+    flex-direction: column-reverse;
+  }
+  .heroheadingm {
+    padding-top: 5%;
+  }
+  .heroimgf {
+   width: 100%;
+    margin-top: 90px;
+    overflow: hidden;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
