@@ -7,7 +7,7 @@ const Plumber = () => {
     const images = [
       {
         id: 1,
-        imageUrl: '../images/banner.png',
+        imageUrl: '../images/serviceimg/pw1.png',
         title: 'Image 1',
       },
       {
@@ -51,56 +51,56 @@ const Plumber = () => {
       subtitle: 'sanitary & c.p fiftting for bathroom ',
       extra:"per Point",
       price: '10000 -13000',
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p9.png',
     },
     {
       title: 'Double line kitchen fitting ',
       subtitle: 'New Installation',
       extra:"per Point",
       price: 400,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pp9.png',
     },
     {
       title: 'Single line bathroom fitting  ',
       subtitle: 'New Installation',
       extra:"per Point",
       price: 7000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/SP1.png',
     },
     {
       title: 'Single line kitchen fitting',
       subtitle: 'New Replacement or Installation ',
       extra:"per Point",
       price: 2500,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pk1.png',
     },
     {
       title: 'Roof top tank fitting ',
       subtitle: 'New Replacement or Installation',
       extra:"per Point",
       price: 3000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p15.png',
     },
     {
       title: 'Water pump fitting ',
       subtitle: 'water pump fitting & suction pipe line connection',
       extra:"per Point",
       price: 2500,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p12.png',
     },
     {
       title: 'Extra basin fitting',
       subtitle: 'New Replacement or Installation',
       extra:"per Point",
       price: 1300,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pb13.png',
     },
     {
       title: 'Extra toilet fitting',
       subtitle: 'New Replacement or Installation',
       extra:"per Point",
       price: 3000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p14.png',
     },
   ];
 
@@ -110,42 +110,42 @@ const Plumber = () => {
       subtitle: 'Price for a single, simple repair is 500 for one point, and for the other point',
       extra:"per Point",
       price: 200,
-      imageUrl: '../images/pipe.png',
+      imageUrl: '../images/serviceimg/pul1.png',
     },
     {
       title: 'Tap installation ',
       subtitle: 'New Installation',
       extra:"per Point",
       price: 400,
-      imageUrl: './faucet.png',
+      imageUrl: '../images/serviceimg/p2.png',
     },
     {
       title: 'Tap Water Blockage ',
       subtitle: 'Low Pressure in tap',
       extra:"per Point",
       price: 2400,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p3.png',
     },
     {
       title: 'flush tank replacement simple',
       subtitle: 'New Replacement or Installation ',
       extra:"per Point",
       price: 800,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p4.png',
     },
     {
       title: 'Urinal Flush ',
       subtitle: 'blockage,repair,leackage',
       extra:"per Point",
       price: 800,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p5.png',
     },
     {
       title: 'Over Head Tank Cleaning',
       subtitle: 'up to 1000 ltr',
       extra:"per number",
       price: 2000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p6.png',
     },
 
     {
@@ -153,14 +153,14 @@ const Plumber = () => {
       subtitle: 'New Replacement or Installation',
       extra:"per Point",
       price: 1400,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p7.png',
     },
     {
       title: 'Shower Head Installation',
       subtitle: ' ',
       extra:"per Point",
       price: 350,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/p8.png',
     },
   ];
 
@@ -222,7 +222,7 @@ const Plumber = () => {
           ))}
         </div>
         </div>
-        <div className='headingall'>
+        {/* <div className='headingall'>
          Our Works 
         </div>
         <div className="card-container">
@@ -234,7 +234,7 @@ const Plumber = () => {
           </div>
         </div>
       ))}
-    </div>
+    </div> */}
               </div>
               
   );

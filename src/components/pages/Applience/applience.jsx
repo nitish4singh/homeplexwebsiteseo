@@ -50,35 +50,35 @@ const Applience = () => {
       subtitle: '',
       extra:"visiting Charge ",
       price: 300,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/ea1.png',
     },
     {
       title: 'Wall Mount A/C Machine Servicing',
       subtitle: 'upto 2 Ton Capacity',
       extra:"per Point",
       price:  1900,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/ea2.png',
     },
     {
       title: 'Wall Mounted A/C Installation',
       subtitle: 'Both Indoor and Outdoor Unit  Wall mounted A/C up to 2 Ton ',
       extra:"per Point",
       price: 2800,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/ea2.png',
     },
     {
       title: 'Water purifier RO Water filter ',
       subtitle: 'Repair, Maintenance and Servicing',
       extra:"per unit",
       price: 1000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/ea3.png',
     },
     {
       title: 'Washing Machine Installation',
       subtitle: 'Install or replace',
       extra:"per Poiper unit",
       price: 800,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/ea4.png',
     },
 
   ];
@@ -127,19 +127,7 @@ const Applience = () => {
           ))}
         </div>
         </div>
-        <div className='headingall'>
-         Our Works 
-        </div>
-        <div className="card-container">
-      {images.map((card) => (
-        <div key={card.id} className="card">
-          <img src={card.imageUrl} alt="Card" className="card-image" />
-          <div className="card-content">
-          <div className='serviceh2'>{card.title}</div>
-          </div>
-        </div>
-      ))}
-    </div>
+       
               </div>
               
   );

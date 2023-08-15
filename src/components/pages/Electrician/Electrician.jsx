@@ -50,91 +50,91 @@ const Electrician = () => {
       subtitle: 'Light point fitting /Holder repair and replacement / power Socket / energy meter',
       extra:"per Point",
       price: 325,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e1.png',
     },
     {
       title: 'Installation of decortive light',
       subtitle: 'Repair or replacement of waste pipe per piece',
       extra:"per Point",
       price: 375,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e2.png',
     },
     {
       title: '2x2 Light Replacement',
       subtitle: 'Includes light installation with wiring upto 7 meter',
       extra:"per Point",
       price: 320,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e3.png',
     },
     {
       title: 'Focus Light Installation',
       subtitle: 'Includes light installation with wiring upto 7 meter',
       extra:"per Point",
       price: 550 ,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e4.png',
     },
     {
       title: 'Install / Replace or Repair Power Socket ',
       subtitle: 'Includes power socket and PVC box installation ',
       extra:"per Point",
       price: 400,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e5.png',
     },
     {
       title: 'Install / Repair / Replace Switch board',
       subtitle: 'Repair or replacement of waste pipe per piece',
       extra:"per Point",
       price: 520,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e6.png',
     },
     {
       title: 'Telephone Socket Installation',
       subtitle: 'Repair or replacement ',
       extra:"per Point",
       price: 500,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e7.png',
     },
     {
       title: 'SP / DP MCB Installation ',
       subtitle: 'Includes MCB Intallation with wiring',
       extra:"per Point",
       price: 520,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e8.png',
     },
     {
       title: 'TPN Fuse, MCB repair and replacement three phase',
       subtitle: 'Includes MCB change or distribution board wire issue',
       extra:"per Point",
       price: 700,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e9.png',
     },
     {
       title: 'Energy meter Installation / Replacement  single phase',
       subtitle: 'Includes Energy Meter install with wiring ',
       extra:"per Point",
       price: '520 / 300',
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e10.png',
     },
     {
       title: ' Fan Installation ',
       subtitle: 'Celling fan /Wall Fan installation and regulator with wiring  ',
       extra:"per Point",
       price: '520',
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e11.png',
     },
     {
       title: 'Inverter Installation (12v) / (24v)',
       subtitle: 'inverter connection and supply ',
       extra:"per Point",
       price: '550',
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e12.png',
     },
     {
       title: 'Television Installation',
       subtitle: 'inverter connection and supply ',
       extra:"per Point",
       price: '1000 / 1500',
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/e13.png',
     },
 
   ];
@@ -183,19 +183,6 @@ const Electrician = () => {
           ))}
         </div>
         </div>
-        <div className='headingall'>
-         Our Works 
-        </div>
-        <div className="card-container">
-      {images.map((card) => (
-        <div key={card.id} className="card">
-          <img src={card.imageUrl} alt="Card" className="card-image" />
-          <div className="card-content">
-          <div className='serviceh2'>{card.title}</div>
-          </div>
-        </div>
-      ))}
-    </div>
               </div>
               
   );
