@@ -2,25 +2,14 @@ import React, { useState } from 'react';
 import { price } from "../../data/Data"
 import './price.css';
 import MyModal from "./Modal";
+import SubscriptionFormCard from './subscriptionform';
 
 const ResidentialCard = () => {
   const [showModal, setShowModal] = useState(false);
   const closeModal = () => setShowModal(false);
   const mainModal = (
     <MyModal closeModal={closeModal}>
-     <div className=" allform">
-      <div className='contactheading'>See Our Rate <br></br> Book the Services </div >
-      <form>
-      <input type="text" placeholder="Name" />
-      <input type="tel" placeholder="Phone" />
-      <input placeholder="Problem"></input>
-      <input type="text" placeholder="Address" />
-      <button type="submit">Submit</button>
-      <button className="model-btn" onClick={closeModal}>
-      Close
-    </button>
-    </form>
-    </div>
+      <SubscriptionFormCard/>
     </MyModal>
   );
   return (

@@ -1,7 +1,16 @@
-import React from "react"
+import React, { useState } from 'react';
 import { Hotel } from "../../data/Data"
-
+import './price.css';
+import MyModal from "./Modal";
+import SubscriptionFormCard from './subscriptionform';
 const HotelRestudent = () => {
+  const [showModal, setShowModal] = useState(false);
+  const closeModal = () => setShowModal(false);
+  const mainModal = (
+    <MyModal closeModal={closeModal}>
+      <SubscriptionFormCard/>
+    </MyModal>
+  );
   return (
     <>
       <div className='content flex mtop'>
@@ -12,9 +21,8 @@ const HotelRestudent = () => {
             </div>
             <h3>{item.plan}</h3>
             <h1>
-                           Rs. {item.price}
+            Rs. {item.price}
             </h1>
-
             <ul>
               {item.list.map((val) => {
                 const { icon, text, change } = val
@@ -33,11 +41,10 @@ const HotelRestudent = () => {
                 )
               })}
             </ul>
-            <button
-              className='button1'
-            >
-             Book Now
-            </button>
+            <button className="model-btn" onClick={() => setShowModal(true)}>
+        Book Now
+      </button>
+      {showModal && mainModal}
           </div>
         ))}
       </div>
@@ -46,5 +53,4 @@ const HotelRestudent = () => {
     </>
   )
 }
-
 export default HotelRestudent;
