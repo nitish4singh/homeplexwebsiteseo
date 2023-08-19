@@ -46,53 +46,60 @@ const Painting = () => {
   ];
   const priceList = [
     {
+      title: 'Whole building panting',
+      subtitle: 'Our experienced panting will come to the site,  and give a cost estimate.',
+      extra:"free Visit",
+      price: 0,
+      imageUrl: '../images/serviceimg/pan1.png',
+    },
+    {
       title: 'Wall color',
       subtitle: 'Include Labour charges only',
       extra:"Exterior , Interior",
       price: "7-7",
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pan1.png',
     },
     {
       title: 'Silcon Paint',
       subtitle: 'Include Labour charges only',
       extra:"Exterior , Interior",
       price: "12-11",
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pan2.png',
     },
     {
       title: 'Wall Putting',
       subtitle: 'Include Labour charges only',
       extra:"Exterior , Interior",
       price: "10 ,9",
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pan3.png',
     },
     {
       title: 'Enamel Paint',
       subtitle: 'Include Labour charges only',
       extra:"Exterior , Interior",
       price: "17 ,16",
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pan4.png',
     },
     {
       title: 'Wall putting + color',
       subtitle: 'Include Labour charges only',
       extra:"Exterior , Interior",
       price: "18 ,15",
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pan5.png',
     },
     {
       title: 'polish major for wooden works',
       subtitle: 'Include Labour charges only',
       extra:"",
       price: 32,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pan6.png',
     },
     {
       title: 'Carness',
       subtitle: 'Include Labour charges only',
       extra:"Exterior , Interior",
       price: 30,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/pan7.png',
     },
   ];
 
@@ -135,19 +142,7 @@ const Painting = () => {
           ))}
         </div>
         </div>
-        <div className='headingall'>
-         Our Works 
-        </div>
-        <div className="card-container">
-      {images.map((card) => (
-        <div key={card.id} className="card">
-          <img src={card.imageUrl} alt="Card" className="card-image" />
-          <div className="card-content">
-          <div className='serviceh2'>{card.title}</div>
-          </div>
-        </div>
-      ))}
-    </div>
+
               </div>
     );
 };

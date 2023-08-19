@@ -6,13 +6,12 @@ import "./workingprocess.css"
 const Awards = () => {
   return (
     <>
+    
       <section
         className="services-section-two"
-        style={{
-          backgroundImage: "url(https://digitalterai.com/images/pattern-2.png)",
-        }}
+       
       >
-        <h2 className="mainheading">Homeplex Working Process</h2>
+        <div className="wmainheading">Homeplex Working Process</div>
         <div className="workrow">
           <div className="workcolumn">
             <div className="workcontent">

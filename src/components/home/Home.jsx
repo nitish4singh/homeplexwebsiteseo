@@ -7,6 +7,8 @@ import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import AboutHomeplex from "./aboutHomeplex/aboutHomeplex"
 import ClientWork from "./clientWork/clientwork"
+import Faq from "../faq/Faq"
+import PopularServiceCard from "../popularService/PopularServicecard"
 
 
 const Home = () => {
@@ -16,10 +18,9 @@ const Home = () => {
       <Featured />
       <AboutHomeplex/>
       <Price />
-      <Recent />
-      <Awards />
-     
+     <PopularServiceCard/>
       <ClientWork/>
+        <Awards />
       <Team />
     </>
   )

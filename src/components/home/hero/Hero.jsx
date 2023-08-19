@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="column left">
         <div className="heroheadingmf">
         <Typewriter
-                words={["WELCOME TO Homeplex."]}
+                words={["WELCOME TO HOMEPLEX."]}
                 loop
                 cursor
                 cursorStyle="|"
@@ -25,14 +25,14 @@ const Hero = () => {
               of Calling the  Handyman <br />
             Services<br />
             </div>
-        <div className="herobuttonf">
-              <button className="herobuttonf">
+        {/* <div className="herobuttonf">
+              <div className="herobuttonf">
               <li>
               <a href="/service"> Get Started <i className="fa fa-long-arrow-alt-right"></i></a>
                 </li>
-              </button>
+              </div>
               
-            </div>
+            </div> */}
           
       </div>
       <div className="column right">

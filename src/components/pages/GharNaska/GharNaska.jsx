@@ -48,21 +48,21 @@ const GharNaska = () => {
       subtitle: 'Helping design and get approval for 2D municipal drawings following municipality guidelines for regulatory ',
       extra:"",
       price: 46000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/na1.png',
     },
     {
       title: '850-1300 sq.ft  2D Design',
       subtitle: 'Helping design and get approval for 2D municipal drawings following municipality guidelines for regulatory ',
       extra:"",
       price: 65000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/na2.png',
     },
     {
       title: 'Above 1300 sq.ft  2D Design',
       subtitle: 'Helping design and get approval for 2D municipal drawings following municipality guidelines for regulatory ',
       extra:"",
       price: 80000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/na1.png',
     },
   ];
 
@@ -104,7 +104,7 @@ const GharNaska = () => {
           ))}
         </div>
         </div>
-        <div className='headingall'>
+        {/* <div className='headingall'>
          Homeplex Client House Design
         </div>
         <div className="card-container">
@@ -116,7 +116,7 @@ const GharNaska = () => {
           </div>
         </div>
       ))}
-    </div>
+    </div> */}
               </div>
               
   );

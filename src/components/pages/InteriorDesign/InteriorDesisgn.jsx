@@ -7,13 +7,23 @@ const InteriorDesign = () => {
     const images = [
       {
         id: 1,
-        imageUrl: '../images/banner.png',
-        title: 'Image 1',
+        imageUrl: '../images/serviceimg/int1.png',
+        title: 'Office Room Design By Tulsi for Client ',
       },
       {
         id: 2,
-        imageUrl: '../images/banner.png',
-        title: 'Image 2',
+        imageUrl: '../images/serviceimg/int2.png',
+        title: 'Design By Tulsi for Client ',
+      },
+      {
+        id: 3,
+        imageUrl: '../images/serviceimg/int3.png',
+        title: 'living Room Design By Tulsi ',
+      },
+      {
+        id: 4,
+        imageUrl: '../images/serviceimg/int4.png',
+        title: 'Tv Room Design By Tulsi',
       },
           ];
           const typeData = [

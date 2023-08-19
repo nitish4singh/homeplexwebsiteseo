@@ -1,17 +1,28 @@
 /* Default styles */
 .clienth1 {
-  margin: 1rem auto 1.5rem;
-  text-align: center;
-  font-size: 30px;
+  position: relative;
+  color: #074955;
   font-weight: 600;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: " Poppins", sans-serif;
+  padding-left: 50px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .clienth2 {
-  margin: 1rem auto 1.4rem;
+  position: relative;
+  color: #010f11;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: " Poppins", sans-serif;
+  padding-left: 50px;
+  font-weight: bold;
   text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  color: black;
+  padding-top: 10px;
 }
 
 .product--image {
@@ -37,7 +48,7 @@
   font-size: 22px;
 }
 
-.card button {
+.cardc button {
   border: none;
   outline: 0;
   padding: 12px;

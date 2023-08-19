@@ -15,10 +15,16 @@ const Footer = () => {
       <footer>
         <div className="container gridf grid-four-column">
           <div className="footer-about">
-            <h3>Company Address</h3>
+            <div  className="footerh">Company Address</div >
             <div className="icon-text-row">
       <FaPhone className="footericon" />
       <span className="footertext">9808338255</span>
+      
+    </div>
+    <div className="icon-text-row">
+      <FaPhone className="footericon" />
+      <span className="footertext">9841223452</span>
+      
     </div>
     <div className="icon-text-row">
      
@@ -38,7 +44,7 @@ const Footer = () => {
 
           {/* 2nd column */}
           <div className="footer-subscribe">
-            <h3>Sisnovate Service</h3>
+          <div  className="footerh">Homeplex Service</div >
             <div className="footertext">Plumbing</div>
             <div className="footertext">Electrician</div>
             <div className="footertext">Electrical Applience</div>
@@ -47,21 +53,21 @@ const Footer = () => {
             <div className="footertext">Interior Design</div>
             <div className="footertext">2d /3d Design</div>
             <div className="footertext"> Ghar Naska</div>
-            <div className="footertext">Civil Consultancy</div>
+            <div className="footertext">Construction Service</div>
           </div>
        {/* 3rs column  */}
        <div className="footer-product">
         
-            <h3>Homeplex Subscription</h3>
-            <div className="footertext"> Resicident </div>
-            <div className="footertext">Hotel & Restudent</div>
+       <div  className="footerh">Homeplex Subscription</div>
+            <div className="footertext"> Residence </div>
+            <div className="footertext">Hotel & Restuants</div>
             <div className="footertext">Office & Institute</div>
-            <div className="footertext"> Resicident Flat</div>
+            <div className="footertext"> Resiciants Flat</div>
            
           </div>
           {/* 3rs column  */}
           <div className="footer-social">
-            <h3>Follows Us</h3>
+          <div  className="footerh">Follows Us</div>
             <div className="footer-social--icons">
               <div>
                 <FaLinkedin className="icons" />
@@ -84,7 +90,7 @@ const Footer = () => {
         {/* bottom section  */}
         <div className="center-text">
             <p>
-              @{new Date().getFullYear()} Sisnovate. All Rights Reserved
+              @{new Date().getFullYear()} Homeplex. All Rights Reserved
             </p>
           </div>
      
@@ -113,7 +119,7 @@ const Wrapper = styled.section`
     background-color: #008383;
 
     h3 {
-      color:"#0a1435";
+      color:"#FFFFFF";
       margin-bottom: 1rem;
     }
     p {

@@ -1,0 +1,57 @@
+
+.faq {
+    padding: 50px 0;
+  }
+  .containerf {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  
+  .boxf {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .boxf button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .boxf button:hover {
+    background-color: #ffffff;
+  }
+  
+  .boxf h2 {
+    margin: 0;
+    font-size: 15px;
+    color: black;
+  }
+  .boxf span i {
+    transition: transform 0.3s;
+    color: #333; 
+  }
+  .boxf.open span i {
+    transform: rotate(180deg);
+  }
+  .text {
+    padding: 10px;
+    display: none;
+  }
+  .headingfaq {
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+   text-align: center;
+  }
+  
+  .boxf.open .text {
+    display: block;
+  }
+  

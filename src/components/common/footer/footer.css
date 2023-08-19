@@ -30,6 +30,15 @@
 
   /* Add any additional styles for the text here */
 }
+.footerh {
+  color: white;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-weight: bold;
+
+  /* Add any additional styles for the text here */
+}
 .center-text {
   display: flex;
   justify-content: center;

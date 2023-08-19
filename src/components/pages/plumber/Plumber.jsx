@@ -57,7 +57,7 @@ const Plumber = () => {
       title: 'Double line kitchen fitting ',
       subtitle: 'New Installation',
       extra:"per Point",
-      price: 400,
+      price: 4000,
       imageUrl: '../images/serviceimg/pp9.png',
     },
     {
@@ -100,6 +100,13 @@ const Plumber = () => {
       subtitle: 'New Replacement or Installation',
       extra:"per Point",
       price: 3000,
+      imageUrl: '../images/serviceimg/p14.png',
+    },
+    {
+      title: 'Whole building Plumbing',
+      subtitle: 'Our experienced plumber will come to the site,  and give a cost estimate.',
+      extra:"free Visit",
+      price: 0,
       imageUrl: '../images/serviceimg/p14.png',
     },
   ];

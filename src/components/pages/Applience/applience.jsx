@@ -46,14 +46,14 @@ const Applience = () => {
   ];
   const priceList = [
     {
-      title: 'The Homeplex team will visit your location to identify the issue and provide an estimation for the necessary repairs or solutions.',
+      title: 'The Homeplex team will visit your location to identify the issue and provide an estimate for the necessary repairs or solutions.',
       subtitle: '',
       extra:"visiting Charge ",
       price: 300,
       imageUrl: '../images/serviceimg/ea1.png',
     },
     {
-      title: 'Wall Mount A/C Machine Servicing',
+      title: 'Wall Mounted A/C Machine Servicing',
       subtitle: 'upto 2 Ton Capacity',
       extra:"per Point",
       price:  1900,
@@ -70,7 +70,7 @@ const Applience = () => {
       title: 'Water purifier RO Water filter ',
       subtitle: 'Repair, Maintenance and Servicing',
       extra:"per unit",
-      price: 1000,
+      price: "1000 -2000",
       imageUrl: '../images/serviceimg/ea3.png',
     },
     {

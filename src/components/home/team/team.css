@@ -44,6 +44,9 @@
 .team label {
   display: inline-block;
   margin-top: 20px;
+  color: #2d3954;
+  font-size: 12px;
+  font-weight: bold;
 }
 .team i {
   color: grey;

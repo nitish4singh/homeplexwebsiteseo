@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #008383;
+  margin-top: 30px;
 }
 .workrow {
   display: flex;
@@ -44,15 +45,14 @@
   flex-direction: column;
   align-items: center;
 }
-.mainheading {
+.wmainheading {
   display: flex;
-  margin-top: 10;
-  margin-bottom: 10;
+  margin-left: 15px;
   justify-content: center;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .workheading {
   font-size: 18px;
@@ -88,7 +88,7 @@
 }
 
 element.style {
-  background-image: url(https://digitalterai.com/images/pattern-2.png);
+  background-image: url("../../images/banner2.png");
 }
 
 @media (max-width: 768px) {
@@ -107,5 +107,15 @@ element.style {
     width: 40px;
     height: 3px;
 
+  }
+  .mainheading {
+    display: flex;
+    margin-top: 10;
+    margin-bottom: 10;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
   }
 }

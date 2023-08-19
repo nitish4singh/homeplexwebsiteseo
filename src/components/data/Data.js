@@ -16,15 +16,54 @@ export const nav = [
     path: "/blog",
   },
   {
-    text: "pricing",
-    path: "/pricing",
+    text: "Subscription",
+    path: "/subscription",
   },
   {
-    text: "contact",
-    path: "/contact",
+    text: "FAQ",
+    path: "/faq",
   },
 ]
 
+export const faq = [
+  {
+    title: "How to book Homeplex service?",
+    desc: "Book the Homeplex service, you can easily do so by filling out the form available on our website or app.",
+  },
+  {
+    title: "How does Homeplex work?",
+    desc: "Homeplex is an online company that provides home-based services. Customers can book our services by visiting our website or downloading our app from the Play Store. After logging in and registering, customers can easily book the services they need. Within two hours, Homeplex manpower will arrive at their doorstep to provide the requested service.",
+  },
+  {
+    title: "How does Homeplex Charge?",
+    desc: "Homeplex offers affordable and budget-friendly pricing for its services, with no hidden charges. We prioritize providing quality work to our customers at reasonable prices.",
+  },
+  {
+    title: "Does Homeplex give a guarantee/warranty on work?",
+    desc: "Homeplex provides a guarantee on maintenance and repair work. We also offer a 20-year guarantee on new building work.",
+  },
+  {
+    title: "Where does Homeplex provide the service?",
+    desc: "Homeplex provides Services in kathmandu, bhaktapur& Lalitpur Soon Homeple will provide the service all over Nepal.",
+  },
+  {
+    title: "What happens if any issue occurs after the service ?",
+    desc: "The service comes with a free 30-day Uc warranty that covers any damage or malfunction of fittings/spare parts proccured by UC for up to 10,000. Additionally,if your are not satisfied with the service.you can get a free service re=visit within 30 days.No question asked.",
+  },
+  {
+    title: "Will the spare parts have a warranty ?",
+    desc: "All the spare parts purchased via company or  procured by our professionals come with warranty.The spare parts that customers purchase do not have any warranty.",
+  },
+  
+  {
+    title: "What happens if any issue occurs after the service ?",
+    desc: "The service comes with a free 30-day Uc warranty that covers any damage or malfunction of fittings/spare parts proccured by UC for up to 10,000. Additionally,if your are not satisfied with the service.you can get a free service re=visit within 30 days.No question asked.",
+  },
+  {
+    title: "Are extra parts included in the cost ?",
+    desc: "No,This services does not include  the cost of spare parts. Although ,our Plumber  can procure the required items for an additional cost ( at market rate )which will reflect in you invoice.",
+  },
+];
 
 export const featured = [
   {
@@ -41,7 +80,7 @@ export const featured = [
   },
   {
     cover: "../images/services/applience.png",
-    name: "Electrical Applience",
+    name: "Electrical Appliance",
     total: "See Rate & Book",
     path: "/applience",
   },
@@ -116,6 +155,7 @@ export const clientWork = [
 
   
 ]
+
 
 export const list = [
   {
@@ -288,16 +328,16 @@ export const price = [
         text: "Only plumbing & Electrical Work Repair & Maintenance ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions . ",
       },
     ],
   },
   {
     best: "Best Package",
-    plan: "Residential Stander plan",
+    plan: "Residential Standard plan",
     price: "10000",
     ptext: "per Year, per House",
     list: [
@@ -330,10 +370,10 @@ export const price = [
         text: "Free one time Over Head Tank Cleaning of 1000 liters ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "Tearms & Conditions apply",
       },],
   },
   {
@@ -366,10 +406,10 @@ export const price = [
         text: "Only plumbing & Electrical Work Repair & Maintenance ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions apply",
       },],
   },
   ]
@@ -412,15 +452,15 @@ export const price = [
           text: "Free one time Over Head Tank Cleaning of 1000 liters ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions apply",
       },  ],
     },
     {
       best: "Best Package",
-      plan: "Institutes /Office  Stander Plan",
+      plan: "Institutes /Office  Standard Plan",
       price: "15000",
       ptext: "per Year, per office",
       list: [
@@ -453,10 +493,10 @@ export const price = [
           text: "Free one time Over Head Tank Cleaning of 2000 liters ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions apply",
       },  ],
     },
     {
@@ -489,10 +529,10 @@ export const price = [
           text: "Only plumbing & Electrical Work Repair & Maintenance ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions apply",
       },  ],
     },
     ]
@@ -529,21 +569,21 @@ export const price = [
           },
        
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions apply",
       },    ],
       },
       {
         best: "Best package",
-        plan: "Hotel & Resturants Stander plan",
-        price: "8000",
+        plan: "Hotel & Resturants Standard plan",
+        price: "7000",
         ptext: "per month, per office",
         list: [
           {
             icon: <i class='fa-solid fa-check'></i>,
-            text: "12 visit per month ",
+            text: "10 visit per month ",
           },
           {
             icon: <i class='fa-solid fa-check'></i>,
@@ -570,14 +610,14 @@ export const price = [
             text: "Free one time Over Head Tank Cleaning of 1000 liters ",
           },
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions apply",
       },    ],
       },
       {
-        plan: "Hotel & Resturants Stander plan",
+        plan: "Hotel & Resturants Standard plan",
         price: "30000",
         ptext: "Per Year, INSTITUTES / OFFICES",
         list: [
@@ -610,10 +650,10 @@ export const price = [
             text: "Free one time Over Head Tank Cleaning of 1000 liters ",
           },
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of toilet pan / commode / washbasine  etc." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Includes Tearms & Conditions. ",
+        text: "With Tearms & Conditions apply",
       },    ],
       },
       ]

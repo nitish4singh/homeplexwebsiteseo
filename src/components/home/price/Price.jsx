@@ -10,12 +10,11 @@ const Price = () => {
     <>
       <section className='price padding'>
         <div className='container'>
-<div className="mainheading">Homeplex Residential  Subscription plan</div>
+          <div className="mainheading">Homeplex Residential  Subscription Plan</div>
           <ResidentialCard />
-          <div className="mainheading">Institutes / office Subscription plan</div>
+          <div className="mainheading">Institutes / Office Subscription Plan</div>
           <InstitutesOffice />
-          
-          <div className="mainheading">Hotel / Resturants  Subscription plan</div>
+                    <div className="mainheading">Hotel / Resturants  Subscription Plan</div>
           <HotelRestudent />
         </div>
       </section>

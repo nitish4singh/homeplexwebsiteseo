@@ -46,6 +46,13 @@ const Electrician = () => {
   ];
   const priceList = [
     {
+      title: 'Whole building Ele',
+      subtitle: 'Our experienced Ele will come to the site,  and give a cost estimate.',
+      extra:"free Visit",
+      price: 0,
+      imageUrl: '../images/serviceimg/pan1.png',
+    },
+    {
       title: 'Installation / replace bulbs or tubelight',
       subtitle: 'Light point fitting /Holder repair and replacement / power Socket / energy meter',
       extra:"per Point",
@@ -54,7 +61,7 @@ const Electrician = () => {
     },
     {
       title: 'Installation of decortive light',
-      subtitle: 'Repair or replacement of waste pipe per piece',
+      subtitle: 'Repair or replacement',
       extra:"per Point",
       price: 375,
       imageUrl: '../images/serviceimg/e2.png',
@@ -63,7 +70,7 @@ const Electrician = () => {
       title: '2x2 Light Replacement',
       subtitle: 'Includes light installation with wiring upto 7 meter',
       extra:"per Point",
-      price: 320,
+      price: 350,
       imageUrl: '../images/serviceimg/e3.png',
     },
     {
@@ -82,7 +89,7 @@ const Electrician = () => {
     },
     {
       title: 'Install / Repair / Replace Switch board',
-      subtitle: 'Repair or replacement of waste pipe per piece',
+      subtitle: 'Repair or replacement',
       extra:"per Point",
       price: 520,
       imageUrl: '../images/serviceimg/e6.png',

@@ -30,8 +30,8 @@ const Pages = () => {
           <Route exact path='/about' element={<About/>} />
           <Route exact path='/services' element={<Services/>} />
           <Route exact path='/blog' element={<Blog/>} />
-          <Route exact path='/pricing' element={<Pricing/>} />
-          <Route exact path='/contact' element={<Contact/>} />
+          <Route exact path='/subscription' element={<Pricing/>} />
+          <Route exact path='/faq' element={<Contact/>} />
           <Route exact path='/motorService' element={<MotorService/>} />
           <Route exact path='/interiorDesign' element={<InteriorDesign/>} />
           <Route exact path='/gharNaska' element={<GharNaska/>} />

@@ -44,18 +44,16 @@ const MotorService = () => {
       imageSrc: '../images/24hrs.png',
     },
   ];
+  
   const priceList = [
     {
-      title: 'The Homeplex team will visit your location to identify the issue and provide an estimation for the necessary repairs or solutions.',
+      title: 'The Homeplex team will visit your location to identify the issue and provide an estimate for the necessary repairs or solutions.',
       subtitle: '',
       extra:"visiting Charge ",
-      price: 300,
-      imageUrl: '../images/list/p-6.png',
+      price: 500,
+      imageUrl: '../images/serviceimg/m1.png',
     },
-
-
   ];
-
 
   return (
     <div className="app">

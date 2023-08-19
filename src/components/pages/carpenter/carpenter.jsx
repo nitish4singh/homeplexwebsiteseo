@@ -46,109 +46,109 @@ const Carpenter = () => {
   ];
   const priceList = [
     {
-      title: 'modular kitchen daraz fitting',
+      title: 'modular kitchen daraz/drawer fitting',
       subtitle: 'Only Labour Charge',
       extra:"Sq Feet",
       price: 550,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c1.png',
     },
     {
-      title: 'modular kitchen daraz fitting',
+      title: 'modular kitchen daraz/drawer fitting',
       subtitle: 'With material Charge',
       extra:"Sq Feet",
       price: "2200-3200",
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c1.png',
     },
     {
       title: 'Modern bed ',
       subtitle: 'Only Labour Charge',
       extra:"Sq Feet",
       price: 650,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c2.png',
     },
     {
       title: 'Door fitting simple with lock without listi',
       subtitle: 'Only Labour Charge',
       extra:"Nos",
       price: 1200,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c3.png',
     },
     {
       title: 'Door fitting simple with lock with  listi',
       subtitle: 'Only Labour Charge',
       extra:"Nos",
       price: 1500,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c4.png',
     },
     {
       title: 'Door fitting simple with door hinges',
       subtitle: 'Only Labour Charge',
       extra:"Nos",
       price: 1000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c5.png',
     },
     {
       title: 'computer table ',
       subtitle: 'Only Labour Charge',
       extra:"Sq Feet",
       price: 550,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c6.png',
     },
     {
-      title: ' jhal chaukas ',
+      title: ' jhal chaukosh ',
       subtitle: 'Only Labour Charge',
       extra:"Kb",
       price: 550,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c7.png',
     },
     {
       title: 'Door sadha khapa',
       subtitle: 'Only Labour Charge',
       extra:"Sq Feet",
       price: 150,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c8.png',
     },
     {
       title: 'Door check khapa  ',
       subtitle: 'Only Labour Charge',
       extra:"Sq Feet",
       price: 300,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c9.png',
     },
     {
       title: 'simple chair',
       subtitle: 'Only Labour Charge',
       extra:"Sq Feet",
       price: 1500,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c10.png',
     },
     {
       title: 'Simple Table',
       subtitle: 'Lenght 3ft width ft heigth 2.6ft with four legs',
       extra:"Nos",
       price: 2000,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c11.png',
     },
     {
       title: 'wood parketing ',
       subtitle: 'Only Labour Charge',
       extra:"Sq Feet",
       price: 50,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c12.png',
     },
     {
       title: 'stair case railing siso wood',
       subtitle: 'Lenght 3ft width ft heigth 2.6ft with four legs , labour charge only ',
       extra:"Running feet",
       price: 750,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c13.png',
     },
     {
       title: 'stair case railing sallo wood ',
       subtitle: 'Only Labour Charge',
       extra:"Running feet",
       price: 550,
-      imageUrl: '../images/list/p-6.png',
+      imageUrl: '../images/serviceimg/c13.png',
     },
 
   ];
@@ -199,7 +199,7 @@ const Carpenter = () => {
           ))}
         </div>
         </div>
-        <div className='headingall'>
+        {/* <div className='headingall'>
          Our Works 
         </div>
         <div className="card-container">
@@ -211,7 +211,7 @@ const Carpenter = () => {
           </div>
         </div>
       ))}
-    </div>
+    </div> */}
               </div>
               
   );

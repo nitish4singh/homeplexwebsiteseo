@@ -28,8 +28,11 @@
   margin-top: 100px;
   overflow: hidden;
   }
+
+
 .herobuttonf {
-  color: #0a8ca0;
+  color: #df8c11;
+  background-color: #df8c11;
   font-weight: 600;
   border: none;
   margin: 3px 10px 0 0;
@@ -40,20 +43,23 @@
 }
 .heroheadingtf {
   position: relative;
-  color: #ffffff;
-  font-size: 28px;
+  color: #cdd1d3;
+  font-size: 26px;
   line-height: 1.6em;
-  font-weight: 600px;
   padding: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  
+
 }
 .heroheadingmf {
-  padding-top: 25%;
+  padding-top: -10%;
   position: relative;
-  color: #ffffff;
-  font-size: 32px;
-  font-weight: 600px;
+  color: #e7e4e4;
+  font-size: 30px;
   font-weight: bold;
   padding-bottom: 10px;
+  font-family:"Roboto";
 
 }
 /* Responsive styles */
