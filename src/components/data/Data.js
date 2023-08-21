@@ -11,10 +11,10 @@ export const nav = [
     text: "services",
     path: "/services",
   },
-  {
-    text: "blog",
-    path: "/blog",
-  },
+  // {
+  //   text: "blog",
+  //   path: "/blog",
+  // },
   {
     text: "Subscription",
     path: "/subscription",
@@ -70,19 +70,19 @@ export const featured = [
     cover: "../images/services/p1.png",
     name: "Plumber",
     total: "See Rate & Book",
-    path: "/plumber",
+    path: "/plumber-service-homeplex-solution/",
   },
   {
     cover: "../images/services/electician.png",
     name: "Electrician",
     total: "See Rate & Book",
-    path: "/electrician",
+    path: "/electric-service/",
   },
   {
     cover: "../images/services/applience.png",
     name: "Electrical Appliance",
     total: "See Rate & Book",
-    path: "/applience",
+    path: "/home-appliance-servic/",
   },
   {
     cover: "../images/services/motor.png",
@@ -94,32 +94,32 @@ export const featured = [
     cover: "../images/services/painter.png",
     name: "Painting",
     total: "See Rate & Book",
-    path: "/painting",
+    path: "/painting-service/",
   },
   {
     cover: "../images/services/carpenter.png",
     name: "Carpenter",
     total: "See Rate & Book",
-    path: "/carpenter",
+    path: "/carpenter-service-in-kathmandu/",
   },
   {
     cover: "../images/services/naksa.png",
     name: "Ghar Naksa",
     total: "See Rate & Book",
-    path: "/gharNaska",
+    path: "/2d-3d-house-design/",
   },
   {
     cover: "../images/services/interiordesign.png",
     name: "Interior Design",
     total: "See Rate & Book",
-    path: "/interiorDesign",
+    path: "/interior-design-by-homeplex/",
   },
 
   {
     cover: "../images/services/civil.png",
     name: "Construction Service",
     total: "See Rate & Book",
-    path: "/consultency",
+    path: "/construction-service/",
   },
 ]
 
@@ -264,7 +264,7 @@ export const location = [
 export const team = [
   {
     list: "70",
-    cover: "../images/customer/ashok.jpeg",
+    cover: "../images/customer/tiwarisir.jpeg",
     address: "Experience in Civil  Work 32 yrs",
     name: "Er.Ashok Tiwari",
     

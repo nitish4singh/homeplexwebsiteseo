@@ -29,6 +29,7 @@ const SubscriptionFormCard = () => {
           address: address,
           packageName: "",
           message:message,
+          status:"notseen"
         })
           .then(() => {
             setAlertMessage('Thank You for Submiting the form Homeplex  will contact you as soon as possible !!');

@@ -3,17 +3,18 @@ import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
 
+
 const InteriorDesign = () => {
     const images = [
       {
         id: 1,
         imageUrl: '../images/serviceimg/int1.png',
-        title: 'Office Room Design By Tulsi for Client ',
+        title: 'Office Room Design By Er.Tulsi for Client ',
       },
       {
         id: 2,
         imageUrl: '../images/serviceimg/int2.png',
-        title: 'Design By Tulsi for Client ',
+        title: 'Design By Er.Tulsi for Client ',
       },
       {
         id: 3,
@@ -24,6 +25,16 @@ const InteriorDesign = () => {
         id: 4,
         imageUrl: '../images/serviceimg/int4.png',
         title: 'Tv Room Design By Tulsi',
+      },
+      {
+        id: 5,
+        imageUrl: '../images/serviceimg/int5.png',
+        title: 'Tvs Showrooms Design By Er.Tulsi',
+      },
+      {
+        id: 6,
+        imageUrl: '../images/serviceimg/int6.png',
+        title: 'Tvs Showrooms Design By Er.Tulsi',
       },
           ];
           const typeData = [

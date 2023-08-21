@@ -9,7 +9,6 @@ const Team = () => {
       <section className='team background'>
         <div className='container'>
           <Heading title='Homeplex Founder'  />
-
           <div className='content mtop gridf'>
             {team.map((val, index) => (
               <div className='box' key={index}>

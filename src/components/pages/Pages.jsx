@@ -33,15 +33,15 @@ const Pages = () => {
           <Route exact path='/subscription' element={<Pricing/>} />
           <Route exact path='/faq' element={<Contact/>} />
           <Route exact path='/motorService' element={<MotorService/>} />
-          <Route exact path='/interiorDesign' element={<InteriorDesign/>} />
+          <Route exact path='/interior-design-by-homeplex/' element={<InteriorDesign/>} />
           <Route exact path='/gharNaska' element={<GharNaska/>} />
-          <Route exact path='/painting' element={<Painting/>} />
-          <Route exact path='/electrician' element={<Electrician/>} />
+          <Route exact path='/painting-service/' element={<Painting/>} />
+          <Route exact path='/electric-service/' element={<Electrician/>} />
           <Route exact path='/design' element={<Design/>} />
-           <Route exact path='/consultency' element={<Consultency/>} />
-           <Route exact path='/carpenter' element={<Carpenter/>} />
-           <Route exact path='/applience' element={<Applience/>} />
-           <Route exact path='/plumber' element={<Plumber/>} />
+           <Route exact path='/construction-service/' element={<Consultency/>} />
+           <Route exact path='/carpenter-service-in-kathmandu/' element={<Carpenter/>} />
+           <Route exact path='/home-appliance-servic/' element={<Applience/>} />
+           <Route exact path='/plumber-service-homeplex-solution/' element={<Plumber/>} />
         </Routes>
         <Footer />
       </Router>

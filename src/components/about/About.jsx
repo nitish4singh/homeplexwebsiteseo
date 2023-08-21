@@ -4,6 +4,9 @@ import img from "../images/banner2.png"
 import "./about.css";
 import Parrot from "./handyman.json";
 import Lottie from "lottie-react";
+import AboutHomeplex from "../home/aboutHomeplex/aboutHomeplex";
+import Team from "../home/team/Team";
+import Awards from "../home/workingProcess/Wokingprocess";
 const About = () => {
   const typeData = [
     {
@@ -111,6 +114,8 @@ const About = () => {
     </div>
         </div>
         </div>
+       <AboutHomeplex/>
+<Awards/>
         <div className='locationheading'>  Homeplex Location </div>
         <div className="map-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d338.12241566796644!2d85.30427784460795!3d27.675769184947214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19879baa91c9%3A0x2ae094f823bbb11d!2sHomeplex!5e0!3m2!1sen!2snp!4v1692214406243!5m2!1sen!2snp" 

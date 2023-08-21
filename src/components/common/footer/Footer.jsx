@@ -40,6 +40,14 @@ const Footer = () => {
       <BiTimeFive className="footericon" />
       <span className="footertext">Working Time -7am -7Pm</span>
     </div>
+    <div className="map-containesr">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d338.12241566796644!2d85.30427784460795!3d27.675769184947214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19879baa91c9%3A0x2ae094f823bbb11d!2sHomeplex!5e0!3m2!1sen!2snp!4v1692214406243!5m2!1sen!2snp" 
+     width="350"
+     height="300"
+     style={{ border: "0" }}
+     allowfullscreen=""
+     loading="lazy"></iframe>
+    </div>
           </div>
 
           {/* 2nd column */}
@@ -77,7 +85,7 @@ const Footer = () => {
               </div>
               <div>
                 <a
-                  href="https://www.facebook.com/profile.php?id=100090306072100"
+                  href="https://www.facebook.com/homeplexnepal.np"
                   target="_blank">
                   <FaFacebook className="icons" />
                 </a>

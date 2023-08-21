@@ -2,7 +2,7 @@ import React from "react"
 import img from "../images/services.jpg"
 import Back from "../common/Back"
 import "../home/featured/Featured.css"
-import FeaturedCard from "../home/featured/FeaturedCard"
+import Featured from "../home/featured/Featured"
 
 const Services = () => {
   return (
@@ -10,7 +10,7 @@ const Services = () => {
       <section className='services mb'>
         <Back name='Services' title='Services -All Services' cover={img} />
         <div className='featured container'>
-          <FeaturedCard />
+          <Featured />
         </div>
       </section>
     </>
