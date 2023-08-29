@@ -2,7 +2,7 @@ import React from 'react';
 import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
-
+import { Helmet } from "react-helmet";
 const Applience = () => {
     const images = [
       {
@@ -85,10 +85,21 @@ const Applience = () => {
 
 
   return (
+    <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title>Applience Repair Service</title>
+    <meta  
+      name="description"
+      content="Home repair Service in kathmandu ,Washing machine repair ,fridge repair in kathmandu,Gas geasure repair in kathmandu,Water purifier RO Water filte in kathmandu "
+    />
+    <meta 
+      name="keywords"
+      content="Home repair Service in kathmandu ,Washing machine repair ,fridge repair in kathmandu,Gas geasure repair in kathmandu,Water purifier RO Water filte in kathmandu "
+    />
+  </Helmet>
+
     <div className="app">
-
-
-
       <div className="row">
       <div className="column ">
         <FormCard />
@@ -129,7 +140,7 @@ const Applience = () => {
         </div>
        
               </div>
-              
+              </>
   );
 };
 

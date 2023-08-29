@@ -2,7 +2,7 @@ import React from 'react';
 import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
-
+import { Helmet } from "react-helmet";
 const Painting = () => {
     const images = [
       {
@@ -105,6 +105,21 @@ const Painting = () => {
 
 
   return (
+    <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title> Painting Service in kathmandu</title>
+    <meta  
+      name="description"
+      content="Homeplex is your go-to source for the best painting service in Kathmandu. 
+      Let us help make your house colorful and vibrant -
+       contact us today to schedule an appointment!"
+    />
+    <meta 
+      name="keywords"
+      content="Whole building panting,Wall color Silcon Paint,Wall Putting, Wall putting + color ,olish major for wooden works in kathmandu"
+    />
+  </Helmet>
     <div className="app">
       <div className="row">
       <div className="column ">
@@ -144,6 +159,7 @@ const Painting = () => {
         </div>
 
               </div>
+              </>
     );
 };
 export default Painting;

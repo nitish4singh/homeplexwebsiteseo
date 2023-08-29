@@ -2,18 +2,18 @@ import React from 'react';
 import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
-
+import { Helmet } from "react-helmet";
 const Consultency = () => {
     const images = [
       {
         id: 1,
-        imageUrl: '../images/banner.png',
-        title: 'Image 1',
+        imageUrl: '../images/list/shouse.jpeg',
+        title: 'Completed Construction',
       },
       {
         id: 2,
-        imageUrl: '../images/banner.png',
-        title: 'Image 2',
+        imageUrl: '../images/list/inhouse.png',
+        title: 'Construction project',
       },
           ];
   
@@ -44,6 +44,60 @@ const Consultency = () => {
       imageSrc: '../images/24hrs.png',
     },
   ];
+  const typeData = [
+    {
+      id: 1,
+      title: '1. Building and installing cabinets',
+
+    },
+    {
+      id: 2,
+      title: '2. Installing doors, windows, and frames ',
+    },
+    {
+      id: 3,
+      title: '3. Constructing and repairing wooden furniture',
+    },
+    {
+      id: 4,
+      title: '4. Installing hardwood floors, baseboards, and crown molding',
+    },
+    {
+      id: 5,
+      title: '5. Building and installing wooden stairs and handrails',
+
+    },
+    {
+      id: 6,
+      title: '6. Repairing and replacing damaged woodwork',
+    },
+    {
+      id: 7,
+      title: '7. Constructing and installing custom shelving and bookcases',
+    },
+    {
+      id: 8,
+      title: '8. Building and repairing wooden fences and decks',
+    },
+    {
+      id: 9,
+      title: '9.Building and installing wooden pergolas, trellises, and other outdoor structures',
+    },
+    {
+      id: 10,
+      title: '10.Repairing and installing wooden roofs, including shingle or metal roofing.',
+    },
+  ];
+  const aboutList = [
+    {
+      title: 'Homeplex Construction Service provides reliable, high-quality construction services near you. Trust us for all your construction needs.',
+      subtitle: ' Homeplex - the leading online construction service provider in kathmandu  that offers high-quality construction solutions to customers across the country.Homeplex  allows you to easily schedule an appointment with our experienced and skilled construction team, and well work with you every step of the way  to ensure your project is completed on time and on budget. At Homeplex, we offer a wide range of construction services, including remodeling,renovations, new construction, and more. We re committed to providing exceptional customer service and satisfaction, using only the best materials and equipment to ensure that your project meets the highest standards of quality. Choose Homeplex for all your construction needs and experience the convenience and peace of mind that comes with our online services.',
+      extra:"Site visit Charge ",
+      price: 0,
+      imageUrl: '../images/serviceimg/c1.png',
+    },
+  ];
+
   const priceList = [
     {
       title: 'Tile Installation',
@@ -105,11 +159,22 @@ const Consultency = () => {
 
 
   return (
+    <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title>construction services</title>
+    <meta  
+      name="description"
+      content="From custom home building to commercial construction, we have the expertise and resources to handle any project. Trust Homeplex for all your construction needs.
+      "
+    />
+    <meta 
+      name="keywords"
+      content="Reliable Construction Services,Construction Company Kathmandu,Residential Construction Experts,Commercial Building Solutions,Custom Home Construction,Renovation and Remodeling Experts. "
+    />
+  </Helmet>
     <div className="app">
-
-
-
-      <div className="row">
+   <div className="row">
       <div className="column ">
         <FormCard />
         </div>
@@ -126,10 +191,8 @@ const Consultency = () => {
               </div>
             ))}
     </div>
-   
         </div>
         </div>
-
         <div className='headingall'>
           See Our Rates
         </div>
@@ -147,6 +210,36 @@ const Consultency = () => {
           ))}
         </div>
         </div>
+        <div className="row">
+      <div className="column ">
+      <div className='pageheading2'> Construction services offered by Homeplex</div>
+        <div>
+            {typeData.map(service => (
+              <div key={service.id} className="service-item2">
+                            <div>
+                  <div className='serviceh3'>{service.title}</div>
+            
+                </div>
+              </div>
+            ))}
+    </div>
+
+        </div>
+        <div className="column">
+        <div className='pageheading2'> About Homeplex </div>
+        <div className="price-list">
+          {aboutList.map((item, index) => (
+            <PriceCard
+              key={index}
+              subtitle={item.subtitle}
+              imageUrl={item.imageUrl}
+              price={item.price}
+            />
+          ))}
+        </div>
+   
+        </div>
+        </div>
         <div className='headingall'>
          Our Works 
         </div>
@@ -161,7 +254,7 @@ const Consultency = () => {
       ))}
     </div>
               </div>
-              
+              </>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { FaLinkedin,FaInstagram, FaFacebook,FaPhone } from "react-icons/fa";
-
+import { FaLinkedin,FaInstagram, FaFacebook,FaPhone,FaYoutube  } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import { IoMdMail } from 'react-icons/io';
 import { BiTimeFive } from 'react-icons/bi';
 import "./footer.css"
@@ -23,7 +23,7 @@ const Footer = () => {
     </div>
     <div className="icon-text-row">
       <FaPhone className="footericon" />
-      <span className="footertext">9841223452</span>
+      <span className="footertext">9818018051</span>
       
     </div>
     <div className="icon-text-row">
@@ -50,29 +50,28 @@ const Footer = () => {
     </div>
           </div>
 
+
           {/* 2nd column */}
           <div className="footer-subscribe">
-          <div  className="footerh">Homeplex Service</div >
-            <div className="footertext">Plumbing</div>
-            <div className="footertext">Electrician</div>
-            <div className="footertext">Electrical Applience</div>
-            <div className="footertext"> Painting</div>
-            <div className="footertext">Carpenter</div>
-            <div className="footertext">Interior Design</div>
-            <div className="footertext">2d /3d Design</div>
-            <div className="footertext"> Ghar Naska</div>
-            <div className="footertext">Construction Service</div>
+          <div  className="footerh">  Homeplex Service</div >
+          <Link  target="_blank" to="/plumber-service-homeplex-solution"> <div className="footertext">  Plumbing  </div> </Link>
+          <Link target="_blank"  to="/electric-service/"> <div className="footertext">  Electrician  </div> </Link>
+          <Link target="_blank"  to="/home-appliance-servic"> <div className="footertext">  Electrical Applience  </div> </Link>
+          <Link  target="_blank" to="/motorService"> <div className="footertext">  Motor Service  </div> </Link>
+          <Link target="_blank"  to="/painting-service/"> <div className="footertext">  Panting  </div> </Link>
+          <Link target="_blank"  to="/carpenter-service-in-kathmandu/"> <div className="footertext">  Carpenter </div> </Link>
+          <Link target="_blank"  to="/interior-design-by-homeplex/"> <div className="footertext">  2d /3d Design  </div> </Link>
+          <Link target="_blank"  to="/gharNaksa"> <div className="footertext">  Ghar Naska  </div> </Link>
+          <Link target="_blank"  to="/construction-service/"> <div className="footertext">  Construction Service  </div> </Link>
           </div>
        {/* 3rs column  */}
        <div className="footer-product">
-        
-       <div  className="footerh">Homeplex Subscription</div>
-            <div className="footertext"> Residence </div>
-            <div className="footertext">Hotel & Restuants</div>
-            <div className="footertext">Office & Institute</div>
-            <div className="footertext"> Resiciants Flat</div>
-           
-          </div>
+               <div  className="footerh">Homeplex Subscription</div>
+               <Link target="_blank"  to="/subscription"> <div className="footertext">  Residence  </div> </Link>
+               <Link target="_blank" to="/subscription"> <div className="footertext"> Hotel & Restuants  </div> </Link>
+               <Link  target="_blank" to="/subscription"> <div className="footertext">  Office & Institute  </div> </Link>
+               <Link target="_blank"  to="/subscription"> <div className="footertext">  Residence Flat </div> </Link>
+                     </div>
           {/* 3rs column  */}
           <div className="footer-social">
           <div  className="footerh">Follows Us</div>
@@ -88,6 +87,13 @@ const Footer = () => {
                   href="https://www.facebook.com/homeplexnepal.np"
                   target="_blank">
                   <FaFacebook className="icons" />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.youtube.com/@homeplex"
+                  target="_blank">
+                  <FaYoutube  className="icons" />
                 </a>
               </div>
             </div>

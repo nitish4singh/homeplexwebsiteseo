@@ -1,40 +1,39 @@
 import React from 'react';
 import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
-import "../features/allpage.css"
-
-
+import "../features/allpage.css";
+import { Helmet } from "react-helmet";
 const InteriorDesign = () => {
     const images = [
       {
         id: 1,
         imageUrl: '../images/serviceimg/int1.png',
-        title: 'Office Room Design By Er.Tulsi for Client ',
+        title: 'Office Room Design By Ar.Tulsi for Client ',
       },
       {
         id: 2,
         imageUrl: '../images/serviceimg/int2.png',
-        title: 'Design By Er.Tulsi for Client ',
+        title: 'Design By Ar.Tulsi for Client ',
       },
       {
         id: 3,
         imageUrl: '../images/serviceimg/int3.png',
-        title: 'living Room Design By Tulsi ',
+        title: 'living Room Design By  Ar. Tulsi ',
       },
       {
         id: 4,
         imageUrl: '../images/serviceimg/int4.png',
-        title: 'Tv Room Design By Tulsi',
+        title: 'Tv Room Design By Ar. Tulsi',
       },
       {
         id: 5,
         imageUrl: '../images/serviceimg/int5.png',
-        title: 'Tvs Showrooms Design By Er.Tulsi',
+        title: 'Tvs Showrooms Design By Ar.Tulsi',
       },
       {
         id: 6,
         imageUrl: '../images/serviceimg/int6.png',
-        title: 'Tvs Showrooms Design By Er.Tulsi',
+        title: 'Tvs Showrooms Design By Ar.Tulsi',
       },
           ];
           const typeData = [
@@ -120,6 +119,19 @@ const InteriorDesign = () => {
 
 
   return (
+    <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title>Interior Design services</title>
+    <meta  
+      name="description"
+      content=" If you're looking for interior design services in the Kathmandu Valley, look no further than Homeplex. Contact us today to schedule a consultation and start transforming your living spaces into the home of your dreams!"
+    />
+    <meta 
+      name="keywords"
+      content="Professional Interior Design,Furniture selection and arrangement,Space planning and layout,Interior Renovation Experts,Customized Interior Styling,Modern Interior Concepts,Interior Design Consultation,Commercial Space Design,Residential Interior Design, Bhaktapur Home Interiors, Interior Designers in Kathmandu"
+    />
+  </Helmet>
     <div className="app">
       <div className="row">
       <div className="column ">
@@ -187,6 +199,7 @@ const InteriorDesign = () => {
       ))}
     </div>
               </div>
+              </>
               
   );
 };

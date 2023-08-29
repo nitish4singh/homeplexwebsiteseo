@@ -5,8 +5,9 @@ import "./about.css";
 import Parrot from "./handyman.json";
 import Lottie from "lottie-react";
 import AboutHomeplex from "../home/aboutHomeplex/aboutHomeplex";
-import Team from "../home/team/Team";
 import Awards from "../home/workingProcess/Wokingprocess";
+import { Helmet } from "react-helmet";
+
 const About = () => {
   const typeData = [
     {
@@ -60,6 +61,19 @@ const About = () => {
   ];
   return (
     <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title>About Homeplex</title>
+    <meta  
+      name="description"
+      content="What sets Homeplex apart is its use of cutting-edge technology and a highly organized team of engineers and professionals. The company is committed to using the latest tools and techniques to ensure that every job is done efficiently and to the highest standards."
+    />
+    <meta 
+      name="keywords"
+      content="House Repair Service,House Shifting transport facility,Consultancy service regarding Civil work of the house,9. Repairs: Electricians, Plumbers, Carpenters (Kitchen, Doors, Home decoration), AC repair, Washing Machine Repair, Refrigerator Repair, RO or Water Purifier Repair, 10. Microwave Repair, Geyser Repair, T.V. repair Fan repair, handyman, etc.
+      "
+    />
+  </Helmet>
       <section className='about'>
         <Back name='' title=' ' cover={img} />
 

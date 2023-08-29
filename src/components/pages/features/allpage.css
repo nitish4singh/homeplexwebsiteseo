@@ -54,11 +54,7 @@
   text-align: center;
   margin-top: -20px;
 }
-.serviceh3{
-  font-size: 19px;
-  font-style: bold;
-  text-align: center;
-}
+
 .servicep{
   font-size: 12px;
 margin-top: -10px;
@@ -182,13 +178,12 @@ margin-top: -10px;
   background-color: #f1f4f8;;
   border-radius: 8px;
   box-shadow: 0 0px 0px rgba(0, 0, 1, 0.1);
-  padding: 8px;
+  padding: 08px;
   max-width: 400px;
   text-align: center;
   margin-left: 150px;
-  padding-top:40px;
+  padding-top:10px;
 }
-
 
 .contactheading {
   font-family: myFont,sans-serif;
@@ -322,6 +317,14 @@ margin-top: -10px;
 .experticon-container img {
   max-width: 60px; /* Adjust the size as needed */
 }
+.serviceh3{
+  font-size: 18px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 10px;
+font-weight: 500;
+padding-bottom: 3px;
+}
 
 @media (max-width: 768px) {
   .row {
@@ -373,10 +376,11 @@ margin-top: -10px;
     text-align: center;
   }
   .serviceh3{
-    font-size: 16px;
-    margin: 5px;
-    font-style: bold;
-    text-align: center;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 10px;
+  font-weight: 500;
   }
   .serviceh2{
     font-size: 16px;

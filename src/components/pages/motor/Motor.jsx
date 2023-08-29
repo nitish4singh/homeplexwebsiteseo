@@ -2,7 +2,7 @@ import React from 'react';
 import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
-
+import { Helmet } from "react-helmet";
 const MotorService = () => {
     const images = [
       {
@@ -56,6 +56,19 @@ const MotorService = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title>Electric Motor pump Service</title>
+    <meta  
+      name="description"
+      content=" Electric Motor pump ,Submersible Pump repair and maintainance service  in kathmandu"
+    />
+    <meta 
+      name="keywords"
+      content="Submersible Pump repair , Water Pump repair in kathmandu "
+    />
+  </Helmet>
     <div className="app">
 
 
@@ -112,6 +125,7 @@ const MotorService = () => {
       ))}
     </div> */}
               </div>
+              </>
               
   );
 };

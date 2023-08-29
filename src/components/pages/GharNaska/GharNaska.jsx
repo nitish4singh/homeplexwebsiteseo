@@ -2,7 +2,7 @@ import React from 'react';
 import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
-
+import { Helmet } from "react-helmet";
 const GharNaska = () => {
     const images = [
       {
@@ -67,6 +67,30 @@ const GharNaska = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title>Ghar Naksa </title>
+    <meta  
+      name="description"
+      content="Transform your vision into reality with our expert 2D municipal drawing services in Kathmandu. Our skilled team navigates complex municipality guidelines, crafting precise building plans for your dream homeplex"
+    />
+    <meta 
+      name="keywords"
+      content="Municipal Drawing Services,Construction Drawing Compliance,Urban Planning Drawings
+      Architectural Drafting Services,
+      Zoning Regulations Kathmandu,
+      Site Plan Approvals,
+      Residential Building Design,
+      Custom Home Design Kathmandu,
+      Blueprints for Homeplexes,
+      Construction Documentation,
+      Kathmandu Building Design,
+      Structural Drawings,
+      Land Development Plans,
+       "
+    />
+  </Helmet>
     <div className="app">
       <div className="row">
       <div className="column ">
@@ -118,7 +142,7 @@ const GharNaska = () => {
       ))}
     </div> */}
               </div>
-              
+              </>
   );
 };
 export default GharNaska;

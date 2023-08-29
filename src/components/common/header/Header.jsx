@@ -5,19 +5,18 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
-
   return (
     <>
       <header>
         <div className='container flex'>
-          <div className='logo'> 
-            <img src='./images/ic_launcher.png' alt='' />
+          <div className='headerlogo'> 
+            <img src='./ic_launcher.png' alt='' />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link to={list.path}>{list.text}</Link>
+                  <Link target="_blank" to={list.path}>{list.text}</Link>
                 </li>
               ))}
             </ul>

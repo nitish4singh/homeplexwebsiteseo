@@ -2,6 +2,7 @@
         
 import "../../pages/features/allpage.css"
 import Imagecard from "./imagecard";
+
 const AboutHomeplex = ()=>{
       const servicesData = [
     {
@@ -29,9 +30,12 @@ const AboutHomeplex = ()=>{
       imageSrc: '../images/24hrs.png',
     },
   ];
+
+
+  
     return(
         <>
-        
+ 
 <div className="row">
 <div className="column ">
   <Imagecard />

@@ -2,7 +2,7 @@ import React from 'react';
 import FormCard from '../features/FormCard';
 import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
-
+import { Helmet } from "react-helmet";
 const Electrician = () => {
     const images = [
       {
@@ -46,11 +46,11 @@ const Electrician = () => {
   ];
   const priceList = [
     {
-      title: 'Whole building Ele',
+      title: 'Whole building Wiring',
       subtitle: 'Our experienced Ele will come to the site,  and give a cost estimate.',
       extra:"free Visit",
       price: 0,
-      imageUrl: '../images/serviceimg/pan1.png',
+      imageUrl: '../images/serviceimg/eo.jpeg',
     },
     {
       title: 'Installation / replace bulbs or tubelight',
@@ -148,10 +148,21 @@ const Electrician = () => {
 
 
   return (
+    <>
+    <Helmet>
+    <meta charset="utf-8" />
+    <title>Electrician Service in kathmandu</title>
+    <meta  
+      name="description"
+      content="Homeplex - the Leading online electric service provider that offers reliable and affordable electrical solutions to customers across Kathmandu Vally."
+    />
+    <meta 
+      name="keywords"
+      content="New Wiring and Installation Experts in kathmandu ,Electrical Maintenance Packages,Emergency Electrician 24/7,Electrical Services in Kathmandu,Residential Electrician Services
+      "
+    />
+  </Helmet>
     <div className="app">
-
-
-
       <div className="row">
       <div className="column ">
         <FormCard />
@@ -191,7 +202,7 @@ const Electrician = () => {
         </div>
         </div>
               </div>
-              
+              </>
   );
 };
 

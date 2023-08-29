@@ -11,10 +11,6 @@ export const nav = [
     text: "services",
     path: "/services",
   },
-  // {
-  //   text: "blog",
-  //   path: "/blog",
-  // },
   {
     text: "Subscription",
     path: "/subscription",
@@ -28,36 +24,27 @@ export const nav = [
 export const faq = [
   {
     title: "How to book Homeplex service?",
-    desc: "Book the Homeplex service, you can easily do so by filling out the form available on our website or app.",
+    desc: "To book the Homeplex service, just fill out the form on our website or app.",
   },
   {
     title: "How does Homeplex work?",
-    desc: "Homeplex is an online company that provides home-based services. Customers can book our services by visiting our website or downloading our app from the Play Store. After logging in and registering, customers can easily book the services they need. Within two hours, Homeplex manpower will arrive at their doorstep to provide the requested service.",
+    desc: "Homeplex offers home-based services that can be booked via our website or app. After quick registration, our skilled team arrives within sixty minutes of booking to serve you.",
   },
   {
     title: "How does Homeplex Charge?",
-    desc: "Homeplex offers affordable and budget-friendly pricing for its services, with no hidden charges. We prioritize providing quality work to our customers at reasonable prices.",
+    desc: "At Homeplex, you get budget-friendly pricing as listed with no hidden charges. Quality work at reasonable prices is our priority.",
   },
   {
     title: "Does Homeplex give a guarantee/warranty on work?",
     desc: "Homeplex provides a guarantee on maintenance and repair work. We also offer a 20-year guarantee on new building work.",
   },
   {
-    title: "Where does Homeplex provide the service?",
-    desc: "Homeplex provides Services in kathmandu, bhaktapur& Lalitpur Soon Homeple will provide the service all over Nepal.",
-  },
-  {
-    title: "What happens if any issue occurs after the service ?",
-    desc: "The service comes with a free 30-day Uc warranty that covers any damage or malfunction of fittings/spare parts proccured by UC for up to 10,000. Additionally,if your are not satisfied with the service.you can get a free service re=visit within 30 days.No question asked.",
+    title: "In which locations does Homeplex offer its services?",
+    desc: "Homeplex currently serves Kathmandu, Bhaktapur, and Lalitpur. Soon, our services will expand to cover all of Nepal.",
   },
   {
     title: "Will the spare parts have a warranty ?",
     desc: "All the spare parts purchased via company or  procured by our professionals come with warranty.The spare parts that customers purchase do not have any warranty.",
-  },
-  
-  {
-    title: "What happens if any issue occurs after the service ?",
-    desc: "The service comes with a free 30-day Uc warranty that covers any damage or malfunction of fittings/spare parts proccured by UC for up to 10,000. Additionally,if your are not satisfied with the service.you can get a free service re=visit within 30 days.No question asked.",
   },
   {
     title: "Are extra parts included in the cost ?",
@@ -106,7 +93,7 @@ export const featured = [
     cover: "../images/services/naksa.png",
     name: "Ghar Naksa",
     total: "See Rate & Book",
-    path: "/2d-3d-house-design/",
+    path: "/gharNaksa",
   },
   {
     cover: "../images/services/interiordesign.png",
@@ -114,12 +101,18 @@ export const featured = [
     total: "See Rate & Book",
     path: "/interior-design-by-homeplex/",
   },
-
+//repair-tools
   {
     cover: "../images/services/civil.png",
     name: "Construction Service",
     total: "See Rate & Book",
     path: "/construction-service/",
+  },
+  {
+    cover: "../images/services/repair-tools.png",
+    name: "Repair & Maintenance",
+    total: "See Rate & Book",
+    path: "/house-repair-and-maintainance",
   },
 ]
 
@@ -152,8 +145,6 @@ export const clientWork = [
     location: "At Gwarko",
    
   },
-
-  
 ]
 
 
@@ -175,9 +166,6 @@ export const list = [
     price: "Rs.430-460",
   
   },
- 
-
-
   {
     id: 3,
     cover: "../images/list/civilwork.jpeg",
@@ -211,63 +199,13 @@ export const awards = [
   },
 ]
 
-export const location = [
-  {
-    id: 1,
-    name: "New Orleans, Louisiana",
-    Villas: "12 Villas",
-    Apartments: "10 Apartments",
-    Offices: "07 Offices",
-    cover: "./images/location/city-1.png",
-  },
-  {
-    id: 2,
-    name: "Jerrsy, United State",
-    Villas: "12 Villas",
-    Apartments: "10 Apartments",
-    Offices: "07 Offices",
-    cover: "./images/location/city-2.png",
-  },
-  {
-    id: 3,
-    name: "Liverpool, London",
-    Villas: "12 Villas",
-    Apartments: " 10 Apartments",
-    Offices: "07 Offices",
-    cover: "./images/location/city-3.png",
-  },
-  {
-    id: 4,
-    name: "NewYork, United States",
-    Villas: "12 Villas",
-    Apartments: " 10 Apartments",
-    Offices: "07 Offices",
-    cover: "./images/location/city-4.png",
-  },
-  {
-    id: 5,
-    name: "Montreal, Canada",
-    Villas: "12 Villas",
-    Apartments: " 10 Apartments",
-    Offices: "07 Offices",
-    cover: "./images/location/city-5.png",
-  },
-  {
-    id: 6,
-    name: "California, USA",
-    Villas: "12 Villas",
-    Apartments: " 10 Apartments",
-    Offices: "07 Offices",
-    cover: "./images/location/city-6.png",
-  },
-]
+
 export const team = [
   {
     list: "70",
     cover: "../images/customer/tiwarisir.jpeg",
     address: "Experience in Civil  Work 32 yrs",
     name: "Er.Ashok Tiwari",
-    
   },
   {
        cover: "../images/customer/pridep.jpeg",
@@ -275,7 +213,6 @@ export const team = [
     name: "Er.Pradip Shrestha",
     
   },
-
   {
     list: "80",
     cover: "../images/customer/satendra.png",
@@ -283,18 +220,17 @@ export const team = [
     name: "Er.Satendra Yadav",
     
   },
-
   {
     list: "80",
     cover: "../images/customer/anil.png",
     address: "Experince In constructuion Work 10 yrs",
-    name: "Anil Kuwar",
+    name: "Anil Kunwar",
     
   },
 ]
 export const price = [
   {
-    plan: "Residential Basic plan",
+    plan: "Residential Royale Plan",
     price: "8000",
     ptext: "per house, per year",
     list: [
@@ -328,16 +264,16 @@ export const price = [
         text: "Only plumbing & Electrical Work Repair & Maintenance ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions . ",
+        text: "Terms and Condition Applied ",
       },
     ],
   },
   {
     best: "Best Package",
-    plan: "Residential Standard plan",
+    plan: "Residential Platinum Plan ",
     price: "10000",
     ptext: "per Year, per House",
     list: [
@@ -370,14 +306,14 @@ export const price = [
         text: "Free one time Over Head Tank Cleaning of 1000 liters ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Tearms & Conditions apply",
+        text: "Terms and Condition Applied",
       },],
   },
   {
-    plan: "Residential Flat plan",
+    plan: "Residential Classic Plan",
     price: "5000",
     ptext: "Per Year, Houses",
     list: [
@@ -406,10 +342,10 @@ export const price = [
         text: "Only plumbing & Electrical Work Repair & Maintenance ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions apply",
+        text: "With Terms and Condition Applied",
       },],
   },
   ]
@@ -419,7 +355,7 @@ export const price = [
 
   export const office = [
     {
-      plan: "Institutes / Office  Basic plan",
+      plan: "Institutes / Office Classic Plan",
       price: "12000",
       ptext: "per year, INSTITUTES / OFFICES",
       list: [
@@ -452,15 +388,15 @@ export const price = [
           text: "Free one time Over Head Tank Cleaning of 1000 liters ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions apply",
+        text: "With Terms and Condition Applied",
       },  ],
     },
     {
       best: "Best Package",
-      plan: "Institutes /Office  Standard Plan",
+      plan: "Institutes /Office  Platinum Plan",
       price: "15000",
       ptext: "per Year, per office",
       list: [
@@ -488,19 +424,15 @@ export const price = [
           icon: <i class='fa-solid fa-check'></i>,
           text: "Only plumbing & Electrical Work Repair & Maintenance ",
         },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "Free one time Over Head Tank Cleaning of 2000 liters ",
-        },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions apply",
+        text: "With Terms and Condition Applied",
       },  ],
     },
     {
-      plan: "Institutes / Office Plan",
+      plan: "Institutes / Office Royale Plan",
       price: "18000",
       ptext: "Per Year, INSTITUTES / OFFICES",
       list: [
@@ -529,17 +461,17 @@ export const price = [
           text: "Only plumbing & Electrical Work Repair & Maintenance ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions apply",
+        text: "With Terms and Condition Applied",
       },  ],
     },
     ]
 
     export const Hotel = [
       {
-        plan: "Hotel & Resturants Basic plan",
+        plan: "Hotel & Resturants Classic Plan",
         price: "5000",
         ptext: "per year, Hotel & Resturants",
         list: [
@@ -569,15 +501,15 @@ export const price = [
           },
        
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions apply",
+        text: "With Terms and Condition Applied",
       },    ],
       },
       {
         best: "Best package",
-        plan: "Hotel & Resturants Standard plan",
+        plan: "Hotel & Resturants Platinum Plan",
         price: "7000",
         ptext: "per month, per office",
         list: [
@@ -610,14 +542,14 @@ export const price = [
             text: "Free one time Over Head Tank Cleaning of 1000 liters ",
           },
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions apply",
+        text: "With Terms and Condition Applied",
       },    ],
       },
       {
-        plan: "Hotel & Resturants Standard plan",
+        plan: "Hotel & Resturants Royale Plan",
         price: "30000",
         ptext: "Per Year, INSTITUTES / OFFICES",
         list: [
@@ -650,28 +582,28 @@ export const price = [
             text: "Free one time Over Head Tank Cleaning of 1000 liters ",
           },
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additional charge for installation of new toilet pan / commode / washbasin etc." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "With Tearms & Conditions apply",
+        text: "With Terms and Condition Applied",
       },    ],
       },
-      ]
+      ] 
 export const footer = [
   {
     title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    text: [{ list: "Home Page",path:'/' }, { list: "About Page" ,path:'/about'}, { list: "Service Page" ,path:'/services'}, { list: "Property Page" ,path:'/'}, { list: "Contact Page" ,path:'/'}, { list: "Single Blog" ,path:'/'}],
   },
   {
     title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    text: [{ list: "Home Page" ,path:'/'}, { list: "About Page" ,path:'/'}, { list: "Service Page" ,path:'/'}, { list: "Property Page" ,path:'/'}, { list: "Contact Page" ,path:'/'}, { list: "Single Blog" ,path:'/'}],
   },
   {                                     
     title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
+    text: [{ list: "Headers" ,path:'/'}, { list: "Features" ,path:'/'}, { list: "Attractive" ,path:'/'}, { list: "Testimonials" ,path:'/'}, { list: "Videos" ,path:'/'}, { list: "Footers" ,path:'/'}],
   },
   {
     title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+    text: [{ list: "About" ,path:'/'}, { list: "Blog" ,path:'/'}, { list: "Pricing" ,path:'/'}, { list: "Affiliate" ,path:'/'}, { list: "Login" ,path:'/'}, { list: "Changelog" ,path:'/'}],
   },
 ]

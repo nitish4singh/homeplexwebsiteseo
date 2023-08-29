@@ -40,7 +40,7 @@ const FormCard = () => {
 
   return (
     <div className="contactcard allform">
-      <div className='contactheading'>See Our Rate <br></br> Book the Services </div >
+      <div className='contactheading'>EnList Your Problems  </div >
       <form>
       <input type="text" placeholder="Name" 
       onChange={(event)=>{
