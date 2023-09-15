@@ -37,7 +37,7 @@ const ResidentialCard = () => {
                     >
                       {icon}
                     </label>
-                    <p>{text}</p>
+                    <span>{text}</span>
                   </li>
                 )
               })}

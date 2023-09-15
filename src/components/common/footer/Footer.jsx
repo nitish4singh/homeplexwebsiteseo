@@ -77,10 +77,18 @@ const Footer = () => {
           <div  className="footerh">Follows Us</div>
             <div className="footer-social--icons">
               <div>
+                <a
+                href="https://www.youtube.com/@homeplex"
+                target="_blank">
                 <FaLinkedin className="icons" />
+                </a>
               </div>
               <div>
+                <a 
+                href="https://www.instagram.com/homeplex_nepal/"
+            target="_blank">
                 <FaInstagram className="icons" />
+                </a>
               </div>
               <div>
                 <a

@@ -46,13 +46,12 @@
 }
 .price ul li {
   display: flex;
-  
 }
 .price label {
   width: 35px;
   height: 35px;
   line-height: 38px;
-  border-radius: 50%;
+  border-radius: 75%;
   margin-right: 15px;
   margin-bottom: 3px;  
 }

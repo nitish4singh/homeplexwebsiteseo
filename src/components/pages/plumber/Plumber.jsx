@@ -131,28 +131,28 @@ const Plumber = () => {
       subtitle: 'Low Pressure in tap',
       extra:"per Point",
       price: 2400,
-      imageUrl: '../images/serviceimg/p3.png',
+      imageUrl: '../images/serviceimg/P3.png',
     },
     {
       title: 'flush tank replacement simple',
       subtitle: 'New Replacement or Installation ',
       extra:"per Point",
       price: 800,
-      imageUrl: '../images/serviceimg/p4.png',
+      imageUrl: '../images/serviceimg/P4.png',
     },
     {
       title: 'Urinal Flush ',
       subtitle: 'blockage,repair,leackage',
       extra:"per Point",
       price: 800,
-      imageUrl: '../images/serviceimg/p5.png',
+      imageUrl: '../images/serviceimg/P5.png',
     },
     {
       title: 'Over Head Tank Cleaning',
       subtitle: 'up to 1000 ltr',
       extra:"per number",
       price: 2000,
-      imageUrl: '../images/serviceimg/p6.png',
+      imageUrl: '../images/serviceimg/P6.png',
     },
 
     {
@@ -160,14 +160,14 @@ const Plumber = () => {
       subtitle: 'New Replacement or Installation',
       extra:"per Point",
       price: 1400,
-      imageUrl: '../images/serviceimg/p7.png',
+      imageUrl: '../images/serviceimg/P7.png',
     },
     {
       title: 'Shower Head Installation',
       subtitle: ' ',
       extra:"per Point",
       price: 350,
-      imageUrl: '../images/serviceimg/p8.png',
+      imageUrl: '../images/serviceimg/P8.png',
     },
   ];
 

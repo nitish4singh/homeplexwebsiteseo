@@ -160,7 +160,7 @@ export const list = [
   {
     id: 2,
     cover: "../images/list/inhouse.png",
-    name: "Building Construction (Foundation ,pillers,walls ,slab & beams,UnderGround Watetank & septic Tank) with plaster  Labour Cost only",
+    name: "Building Construction (Foundation ,pillers,walls ,slab & beams,UnderGround Watetank & septic Tank) with plaster",
     location: "Inside Kathmandu velly",
     category: "Expert painting ,Electical ,tiles Marble,plumber",
     price: "Rs.430-460",
@@ -171,7 +171,7 @@ export const list = [
     cover: "../images/list/civilwork.jpeg",
     name: "",
     location: "Inside Kathmandu velly",
-    category: "Soil Testing ,Material testing,Custom home building,Commercial Construction,Residential remodelling,Concrete and masonry work,Electrical and plumbing work,Project management and consulting,Interior Design etc",
+    category: "Soil Testing ,Material testing,Modular House,Commercial Construction,Residential Remodelling,Electrical and plumbing work,Project management and consulting,Interior Design etc",
     price: "Contact Us",
    
   },
@@ -236,7 +236,7 @@ export const price = [
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "12 visit per year ",
+        text: "13 visit per year ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -244,11 +244,11 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "1 hrs 30 min Response time",
+        text: "Quick Response time",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "one visit Working time 2 hrs 30 Min ",
+        text: "per visit working hrs 2.30min ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -264,10 +264,10 @@ export const price = [
         text: "Only plumbing & Electrical Work Repair & Maintenance ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Terms and Condition Applied ",
+        text: "With Terms and Condition Applied ",
       },
     ],
   },
@@ -283,11 +283,11 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "1 hrs 30 min Response time",
+        text: "Quick Response time",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "one visit Working time 2 hrs 30 Min ",
+        text: "per visit working hrs 2.30min ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -306,10 +306,10 @@ export const price = [
         text: "Free one time Over Head Tank Cleaning of 1000 liters ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Terms and Condition Applied",
+        text: "With Terms and Condition Applied",
       },],
   },
   {
@@ -323,11 +323,11 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "1 hrs 30 min Response time",
+        text: "Quick Response time",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "one visit Working time 1 hrs 30 Min ",
+        text: "per visit working hrs 2.30min ",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -342,7 +342,7 @@ export const price = [
         text: "Only plumbing & Electrical Work Repair & Maintenance ",
       },
 
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
         text: "With Terms and Condition Applied",
@@ -356,7 +356,7 @@ export const price = [
   export const office = [
     {
       plan: "Institutes / Office Classic Plan",
-      price: "12000",
+      price: "10000",
       ptext: "per year, INSTITUTES / OFFICES",
       list: [
         {
@@ -365,11 +365,11 @@ export const price = [
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
-          text: "1 hrs  Response time",
+          text: "Quick Response time",
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
-          text: "one visit Working time 2 hrs 30 Min ",
+          text: "per visit working hrs 2.30min ",
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
@@ -388,7 +388,7 @@ export const price = [
           text: "Free one time Over Head Tank Cleaning of 1000 liters ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
         text: "With Terms and Condition Applied",
@@ -397,7 +397,7 @@ export const price = [
     {
       best: "Best Package",
       plan: "Institutes /Office  Platinum Plan",
-      price: "15000",
+      price: "13000",
       ptext: "per Year, per office",
       list: [
         {
@@ -406,11 +406,11 @@ export const price = [
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
-          text: "1 hrs Response time",
+          text: "Quick Response time",
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
-          text: "one visit Working time 2 hrs 30 Min ",
+          text: "per visit working hrs 2.30min ",
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
@@ -425,7 +425,7 @@ export const price = [
           text: "Only plumbing & Electrical Work Repair & Maintenance ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
         text: "With Terms and Condition Applied",
@@ -433,20 +433,20 @@ export const price = [
     },
     {
       plan: "Institutes / Office Royale Plan",
-      price: "18000",
+      price: "16000",
       ptext: "Per Year, INSTITUTES / OFFICES",
       list: [
         {
           icon: <i class='fa-solid fa-check'></i>,
-          text: "25 visit per year ",
+          text: "24 visit per year ",
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
-          text: "1 hrs Response time",
+          text: "Quick Response time",
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
-          text: "one visit Working time 2 hrs 30 Min ",
+          text: "per visit working hrs 2.30min ",
         },
         {
           icon: <i class='fa-solid fa-check'></i>,
@@ -461,7 +461,7 @@ export const price = [
           text: "Only plumbing & Electrical Work Repair & Maintenance ",
         },
   
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
         text: "With Terms and Condition Applied",
@@ -472,7 +472,7 @@ export const price = [
     export const Hotel = [
       {
         plan: "Hotel & Resturants Classic Plan",
-        price: "5000",
+        price: "4500",
         ptext: "per year, Hotel & Resturants",
         list: [
           {
@@ -481,7 +481,7 @@ export const price = [
           },
           {
             icon: <i class='fa-solid fa-check'></i>,
-            text: "1 hrs 30 min Response time",
+            text: "Quick Response time",
           },
           {
             icon: <i class='fa-solid fa-check'></i>,
@@ -499,9 +499,7 @@ export const price = [
             icon: <i class='fa-solid fa-check'></i>,
             text: "Only plumbing & Electrical Work Work Repair & Maintenance ",
           },
-       
-    
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
         text: "With Terms and Condition Applied",
@@ -519,7 +517,7 @@ export const price = [
           },
           {
             icon: <i class='fa-solid fa-check'></i>,
-            text: "1 hrs 30 min Response time",
+            text: "Quick Response time",
           },
           {
             icon: <i class='fa-solid fa-check'></i>,
@@ -542,7 +540,7 @@ export const price = [
             text: "Free one time Over Head Tank Cleaning of 1000 liters ",
           },
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
         text: "With Terms and Condition Applied",
@@ -555,11 +553,11 @@ export const price = [
         list: [
           {
             icon: <i class='fa-solid fa-check'></i>,
-            text: "36 visit per year ",
+            text: "45 visit per year ",
           },
           {
             icon: <i class='fa-solid fa-check'></i>,
-            text: "1 hrs 30 min Response time",
+            text: "Quick Response time",
           },
           {
             icon: <i class='fa-solid fa-check'></i>,
@@ -582,7 +580,7 @@ export const price = [
             text: "Free one time Over Head Tank Cleaning of 1000 liters ",
           },
     
-          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Extra fee for installing new toilet pan, commode, washbasin, and similar items." },
+          { change: "color", icon: <i class='fa-solid fa-x'></i>, text: " Additonal cost for installations of sanitory and cp Items  " },
        {
         icon: <i class='fa-solid fa-check'></i>,
         text: "With Terms and Condition Applied",
