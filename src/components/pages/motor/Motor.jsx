@@ -59,14 +59,14 @@ const MotorService = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>Electric Motor pump Service</title>
+    <title>Motor Pumps in Kathmandu: Reliable Solutions for Water Needs</title>
     <meta  
       name="description"
-      content=" Electric Motor pump ,Submersible Pump repair and maintainance service  in kathmandu"
+      content="Explore our reliable motor pumps in Kathmandu for efficient water solutions. Trust us for quality and performance"
     />
     <meta 
       name="keywords"
-      content="Submersible Pump repair , Water Pump repair in kathmandu "
+      content="motor pumps in kathmandu, motor pump service in kathmandu, Electric Motor pump ,Submersible Pump repair and maintainance service  in kathmandu"
     />
   </Helmet>
     <div className="app">

@@ -224,15 +224,14 @@ const Carpenter = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>Carpenter Service</title>
+    <title>Best Carpenter in kathmandu</title>
     <meta  
       name="description"
-      content="Trust us to transform your space with our expert carpentry services.
-      Contact us today to schedule your carpentry project and experience the Homeplex difference!"
+      content="Skilled Carpenter Services in Kathmandu - Your Trusted Partner for Carpentry Solutions. Find Experienced Carpenters for Furniture, Repairs, and Custom Woodwork in Nepal's Capital."
     />
     <meta 
       name="keywords"
-      content="Building and installing cabinets,Installing doors, windows, and frames,Installing hardwood floors, baseboards, and crown molding,Building and repairing wooden fences and decks,Constructing and repairing wooden furniture "
+      content="Carpenter in kathmandu, carpenter services in kathmandu, Interior Design, Building and installing cabinets, Constructing and repairing wooden furniture "
     />
   </Helmet>
     <div className="app">

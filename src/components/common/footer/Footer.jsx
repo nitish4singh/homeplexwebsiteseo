@@ -54,23 +54,24 @@ const Footer = () => {
           {/* 2nd column */}
           <div className="footer-subscribe">
           <div  className="footerh">  Homeplex Service</div >
-          <Link  target="_blank" to="/plumber-service-homeplex-solution"> <div className="footertext">  Plumbing  </div> </Link>
-          <Link target="_blank"  to="/electric-service/"> <div className="footertext">  Electrician  </div> </Link>
-          <Link target="_blank"  to="/home-appliance-servic"> <div className="footertext">  Electrical Applience  </div> </Link>
-          <Link  target="_blank" to="/motorService"> <div className="footertext">  Motor Service  </div> </Link>
-          <Link target="_blank"  to="/painting-service/"> <div className="footertext">  Panting  </div> </Link>
-          <Link target="_blank"  to="/carpenter-service-in-kathmandu/"> <div className="footertext">  Carpenter </div> </Link>
-          <Link target="_blank"  to="/interior-design-by-homeplex/"> <div className="footertext">  2d /3d Design  </div> </Link>
-          <Link target="_blank"  to="/gharNaksa"> <div className="footertext">  Ghar Naska  </div> </Link>
-          <Link target="_blank"  to="/construction-service/"> <div className="footertext">  Construction Service  </div> </Link>
+          <Link  to="/plumbing-services-in-kathmandu/"> <div className="footertext">  Plumbing  </div> </Link>
+          <Link  to="/electrician-services-in-kathmandu/"> <div className="footertext">  Electrician  </div> </Link>
+          <Link  to="/electrical-appliance-in-kathmandu/"> <div className="footertext">  Electrical Applience  </div> </Link>
+          <Link  to="/motor-pumps-in-kathmandu"> <div className="footertext">  Motor Service  </div> </Link>
+          <Link  to="/house-painting-in-kathmandu/"> <div className="footertext">  Panting  </div> </Link>
+          <Link  to="/carpenter-services-in-kathmandu/"> <div className="footertext">  Carpenter </div> </Link>
+          <Link  to="/interior-design-services/"> <div className="footertext">  2d /3d Design  </div> </Link>
+          <Link  to="/ghar-naksa-in-kathmandu"> <div className="footertext">  Ghar Naska  </div> </Link>
+          <Link  to="/construction-services/"> <div className="footertext">  Construction Service  </div> </Link>
+          <Link  to="/house-repair-and-maintenance"> <div className="footertext">  Repair & Maintenance </div> </Link>
           </div>
        {/* 3rs column  */}
        <div className="footer-product">
                <div  className="footerh">Homeplex Subscription</div>
-               <Link target="_blank"  to="/subscription"> <div className="footertext">  Residence  </div> </Link>
-               <Link target="_blank" to="/subscription"> <div className="footertext"> Hotel & Restuants  </div> </Link>
-               <Link  target="_blank" to="/subscription"> <div className="footertext">  Office & Institute  </div> </Link>
-               <Link target="_blank"  to="/subscription"> <div className="footertext">  Residence Flat </div> </Link>
+               <Link  to="/subscription"> <div className="footertext">  Residence  </div> </Link>
+               <Link to="/subscription"> <div className="footertext"> Hotel & Restuants  </div> </Link>
+               <Link  to="/subscription"> <div className="footertext">  Office & Institute  </div> </Link>
+               <Link  to="/subscription"> <div className="footertext">  Residence Flat </div> </Link>
                      </div>
           {/* 3rs column  */}
           <div className="footer-social">
@@ -78,7 +79,7 @@ const Footer = () => {
             <div className="footer-social--icons">
               <div>
                 <a
-                href="https://www.youtube.com/@homeplex"
+                href="https://www.linkedin.com/in/homeplex-nepal-83a262284/"
                 target="_blank">
                 <FaLinkedin className="icons" />
                 </a>

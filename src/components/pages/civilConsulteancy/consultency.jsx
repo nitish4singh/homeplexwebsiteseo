@@ -162,15 +162,14 @@ const Consultency = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>construction services</title>
+    <title>Expert Construction Services: From Design to Completion</title>
     <meta  
       name="description"
-      content="From custom home building to commercial construction, we have the expertise and resources to handle any project. Trust Homeplex for all your construction needs.
-      "
+      content="Discover our top-notch construction services, covering everything from initial design to flawless project completion."
     />
     <meta 
       name="keywords"
-      content="Reliable Construction Services,Construction Company Kathmandu,Residential Construction Experts,Commercial Building Solutions,Custom Home Construction,Renovation and Remodeling Experts. "
+      content="construction services, Reliable Construction Services,Construction Company Kathmandu,Residential Construction Experts,Commercial Building Solutions,Custom Home Construction"
     />
   </Helmet>
     <div className="app">

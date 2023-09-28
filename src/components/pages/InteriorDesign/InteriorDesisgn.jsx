@@ -122,14 +122,14 @@ const InteriorDesign = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>Interior Design services</title>
+    <title>Interior Design Services: Creating Beautiful, Functional Spaces</title>
     <meta  
       name="description"
-      content=" If you're looking for interior design services in the Kathmandu Valley, look no further than Homeplex. Contact us today to schedule a consultation and start transforming your living spaces into the home of your dreams!"
+      content="Discover our interior design services, crafting beautiful, functional spaces that reflect your style. Elevate your surroundings with us."
     />
     <meta 
       name="keywords"
-      content="Professional Interior Design,Furniture selection and arrangement,Space planning and layout,Interior Renovation Experts,Customized Interior Styling,Modern Interior Concepts,Interior Design Consultation,Commercial Space Design,Residential Interior Design, Bhaktapur Home Interiors, Interior Designers in Kathmandu"
+      content="Interior Design services, Interior design Kathmandu, Interior designers in Kathmandu, Kathmandu interior decorators"
     />
   </Helmet>
     <div className="app">

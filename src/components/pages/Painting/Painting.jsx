@@ -108,16 +108,14 @@ const Painting = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title> Painting Service in kathmandu</title>
+    <title>Interior and Exterior House Painting in Kathmandu: Our Specialization</title>
     <meta  
       name="description"
-      content="Homeplex is your go-to source for the best painting service in Kathmandu. 
-      Let us help make your house colorful and vibrant -
-       contact us today to schedule an appointment!"
+      content="Transform your Kathmandu home with our expert interior and exterior house painting services. Elevate your space today"
     />
     <meta 
       name="keywords"
-      content="Whole building panting,Wall color Silcon Paint,Wall Putting, Wall putting + color ,olish major for wooden works in kathmandu"
+      content="house Painting in kathmandu, House Painting, low price House Painting, painting services in kathmandu"
     />
   </Helmet>
     <div className="app">

@@ -70,25 +70,14 @@ const GharNaska = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>Ghar Naksa </title>
+    <title>Ghar Naksa in Kathmandu: Your Essential Guide to Property Surveys</title>
     <meta  
       name="description"
-      content="Transform your vision into reality with our expert 2D municipal drawing services in Kathmandu. Our skilled team navigates complex municipality guidelines, crafting precise building plans for your dream homeplex"
+      content="Your essential guide to Ghar Naksa in Kathmandu: Navigate property surveys and compliance with confidence. Explore now!"
     />
     <meta 
       name="keywords"
-      content="Municipal Drawing Services,Construction Drawing Compliance,Urban Planning Drawings
-      Architectural Drafting Services,
-      Zoning Regulations Kathmandu,
-      Site Plan Approvals,
-      Residential Building Design,
-      Custom Home Design Kathmandu,
-      Blueprints for Homeplexes,
-      Construction Documentation,
-      Kathmandu Building Design,
-      Structural Drawings,
-      Land Development Plans,
-       "
+      content="Ghar Naksa in kathmandu, ghar color garne"
     />
   </Helmet>
     <div className="app">

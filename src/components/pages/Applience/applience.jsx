@@ -88,14 +88,14 @@ const Applience = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>Applience Repair Service</title>
+    <title>Electrical Appliance in kathmandu</title>
     <meta  
       name="description"
-      content="Home repair Service in kathmandu ,Washing machine repair ,fridge repair in kathmandu,Gas geasure repair in kathmandu,Water purifier RO Water filte in kathmandu "
+      content="Discover the Best Electrical Appliances in Kathmandu - Your One-Stop Destination for Quality Home Electronics. Explore a Wide Range of Appliances for Your Everyday Needs in Nepal's Capital City "
     />
     <meta 
       name="keywords"
-      content="Home repair Service in kathmandu ,Washing machine repair ,fridge repair in kathmandu,Gas geasure repair in kathmandu,Water purifier RO Water filte in kathmandu "
+      content="Electrical Appliance in kathmandu, Electrician Services in kathmandu, Electrical Maintenance"
     />
   </Helmet>
 

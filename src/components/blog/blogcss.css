@@ -1,0 +1,66 @@
+/* Add this CSS to your stylesheets or use a CSS-in-JS solution */
+
+.home1 {
+  margin: 20px;
+}
+
+.posts1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex: 1;
+  max-width: calc(25% - 20px); /* 4 containers in one row on desktop */
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content1 {
+  margin-top: 10px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #333;
+}
+
+.link1:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+}
+
+.read-more1 {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.read-more1:hover {
+  text-decoration: underline;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .post1 {
+    max-width: 100%; /* Display one container per row on mobile */
+  }
+}

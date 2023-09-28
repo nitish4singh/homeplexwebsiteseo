@@ -151,15 +151,14 @@ const Electrician = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>Electrician Service in kathmandu</title>
+    <title>Top Electrician Services in Kathmandu: Expert Electrical Solutions</title>
     <meta  
       name="description"
-      content="Homeplex - the Leading online electric service provider that offers reliable and affordable electrical solutions to customers across Kathmandu Vally."
+      content="Looking for reliable electrician services in Kathmandu? Our expert electricians provide top-notch electrical solutions for your home or business."
     />
     <meta 
       name="keywords"
-      content="New Wiring and Installation Experts in kathmandu ,Electrical Maintenance Packages,Emergency Electrician 24/7,Electrical Services in Kathmandu,Residential Electrician Services
-      "
+      content="Electrician Services in kathmandu, electrician in kathmandu, Electrician Services  in ktm, Emergency Electrician"
     />
   </Helmet>
     <div className="app">

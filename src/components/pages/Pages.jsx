@@ -18,6 +18,9 @@ import Consultency from "./civilConsulteancy/consultency"
 import Carpenter from "./carpenter/carpenter"
 import Applience from "./Applience/applience"
 import RepairMaintance from "./repair&maintainance/repairmaintance"
+import Write from "../blog/blogadmin/writeblog"
+import Login from "../blog/blogadmin/adminlogin"
+import Single from "../blog/blogsinglepage"
 
 const Pages = () => {
   return (
@@ -31,17 +34,19 @@ const Pages = () => {
           <Route exact path='/blog' element={<Blog/>} />
           <Route exact path='/subscription' element={<Pricing/>} />
           <Route exact path='/faq' element={<Contact/>} />
-          <Route exact path='/motorService' element={<MotorService/>} />
-          <Route exact path='/interior-design-by-homeplex/' element={<InteriorDesign/>} />
-          <Route exact path='/gharNaksa/' element={<GharNaska/>} />
-          <Route exact path='/painting-service/' element={<Painting/>} />
-          <Route exact path='/electric-service/' element={<Electrician/>} />
-          <Route exact path='/house-repair-and-maintainance/' element={<RepairMaintance/>} />
-           <Route exact path='/construction-service/' element={<Consultency/>} />
-           <Route exact path='/carpenter-service-in-kathmandu/' element={<Carpenter/>} />
-           <Route exact path='/home-appliance-servic/' element={<Applience/>} />
-           <Route exact path='/plumber-service-homeplex-solution/' element={<Plumber/>} />
-           
+          <Route exact path='/motor-pumps-in-kathmandu' element={<MotorService/>} />
+          <Route exact path='/interior-design-services/' element={<InteriorDesign/>} />
+          <Route exact path='/ghar-naksa-in-kathmandu/' element={<GharNaska/>} />
+          <Route exact path='/house-painting-in-kathmandu/' element={<Painting/>} />
+          <Route exact path='/electrician-services-in-kathmandu/' element={<Electrician/>} />
+          <Route exact path='/house-repair-and-maintenance/' element={<RepairMaintance/>} />
+           <Route exact path='/construction-services/' element={<Consultency/>} />
+           <Route exact path='/carpenter-services-in-kathmandu/' element={<Carpenter/>} />
+           <Route exact path='/electrical-appliance-in-kathmandu/' element={<Applience/>} />
+           <Route exact path='/plumbing-services-in-kathmandu/' element={<Plumber/>} />
+           <Route exact path='/writeblog/' element={<Write/>} />
+           <Route exact path='/blogadminlogin/' element={<Login/>} />
+           <Route exact path='/post/:id' element={<Single/>} />
         </Routes>
         <Footer />
       </Router>

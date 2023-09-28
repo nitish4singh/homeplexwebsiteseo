@@ -176,14 +176,14 @@ const Plumber = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>Plumbing Service in kathmandu</title>
+    <title>Expert Plumbing Services in Kathmandu: Your Trusted Plumbers</title>
     <meta  
       name="description"
-      content="Homeplex Provides Plumbing Service in kathmandu,lalitpur,Bhaktapur - The First-rate  online plumbing service in kathmandu provider that offers fast, reliable and affordable plumbing solutions to customers across the Kathmandu.we have assembled a team of highly skilled and experienced plumbers who are committed to providing top-quality service and ensuring customer satisfaction."
+      content="Discover trusted plumbing services in Kathmandu. Our expert plumbers are your reliable choice for all plumbing needs. Contact us for top-quality service."
     />
     <meta 
       name="keywords"
-      content="Emergency /Quality plumbing services in  Kathmandu, bhaktapur,lalitpur,Affordable Plumbing Services ,Plumbing Experts,Plumbing Maintenance Special Offer,Transparent pricing,24/7 plumbing service , Expert Plumbers in Nepal
+      content="Plumbing Services in kathmandu, Plumbing Maintenance, Plumbing Repairs, Plumbing Contractors, Bathroom Plumbing, Kitchen Plumbing
       "
     />
   </Helmet>

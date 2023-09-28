@@ -63,14 +63,14 @@ const About = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>About Homeplex</title>
+    <title>About Custom Home Builders - Homeplex</title>
     <meta  
       name="description"
-      content="What sets Homeplex apart is its use of cutting-edge technology and a highly organized team of engineers and professionals. The company is committed to using the latest tools and techniques to ensure that every job is done efficiently and to the highest standards."
+      content="Discover Homeplex: Expert custom home builders dedicated to making your dream home a reality. Learn all about custom home builders here!"
     />
     <meta 
       name="keywords"
-      content="House Repair Service,House Shifting transport facility,Consultancy service regarding Civil work of the house,9. Repairs: Electricians, Plumbers, Carpenters (Kitchen, Doors, Home decoration), AC repair, Washing Machine Repair, Refrigerator Repair, RO or Water Purifier Repair, 10. Microwave Repair, Geyser Repair, T.V. repair Fan repair, handyman, etc.
+      content="custom home builders, House Repair Service, Home interior design Kathmandu, Commercial interior design Kathmandu
       "
     />
   </Helmet>

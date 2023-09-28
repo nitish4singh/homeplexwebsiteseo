@@ -119,16 +119,15 @@ const RepairMaintance = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>House repair & Maintainance</title>
+    <title>Affordable House Repair and Maintenance Solutions for Every Budget</title>
     <meta  
       name="description"
       content=" 
-      Homeplex offers top-notch home repair services in kathmandu valley with skilled engineers.
-       Click now to get the best service for your home."
+      Explore budget-friendly house repair and maintenance solutions for your home. Get expert advice for affordable upkeep. Your house deserves it!"
     />
     <meta 
       name="keywords"
-      content="Homeplex Repair Services,House Maintenance Solutions,Residential Renovation Experts,Homeplex Handyman Services,Emergency Home Repairs,Fix and Flip Property Repairs,Efficient House Repairs"
+      content="House repair and maintenance, Plumbing repairs, Electrical repairs, Roof repairs, Lighting design"
     />
   </Helmet>
     <div className="app">

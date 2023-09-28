@@ -16,7 +16,7 @@ const Header = () => {
             <ul className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link target="_blank" to={list.path}>{list.text}</Link>
+                  <Link  to={list.path}>{list.text}</Link>
                 </li>
               ))}
             </ul>
