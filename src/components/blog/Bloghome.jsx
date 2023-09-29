@@ -19,6 +19,7 @@ const BlogHome = () => {
     fetchData();
   }, [cat]);
 
+  // Assuming you already have your getText and truncateText functions defined
   const getText = (html) => {
     const doc = new DOMParser().parseFromString(html, "text/html");
     return doc.body.textContent;
@@ -28,27 +29,25 @@ const BlogHome = () => {
     if (text.length <= limit) return text;
     return text.substring(0, limit) + "...";
   };
-
   return (
     <div className="home1">
       <div className="posts1">
         {posts.map((post) => (
-          <div className="post1" key={post.url}>
+          <div className="post1" key={post.id}>
             <div className="img">
               <img src={post.imgUrl1} alt="" />
             </div>
             <div className="content1">
-              <Link className="link1" to={`/post/${(post.url)}`}>
+              <Link className="link1" to={`/post/${post.url}`}>
                 <div className="title">{post.title}</div>
               </Link>
               <p>{truncateText(getText(post.desci), 50)}</p>
-              <Link className="read-more1" to={`/post/${(post.url)}`}>
+              <Link className="read-more1" to={`/post/${post.url}`}>
                 Read More
               </Link>
             </div>
           </div>
         ))} 
-
       </div>
     </div>
   );
