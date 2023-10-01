@@ -7,7 +7,7 @@ const BlogHome = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const cat = useLocation().search;
-  const API = "http://homeplexapi.homeplexnepal.com/api/blogs/allblogs";
+  const API = "https://homeplexapi.homeplexnepal.com/api/blogs/allblogs";
 
   useEffect(() => {
     const fetchData = async () => {

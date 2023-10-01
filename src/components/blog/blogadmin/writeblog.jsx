@@ -14,6 +14,8 @@ const Write = () => {
   const [imgUrl2, setImgUrl2] = useState(state?.imgUrl2 || "");
   const [cat, setCat] = useState(state?.cat || "");
   const navigate = useNavigate();
+  const API1 = "https://homeplexapi.homeplexnepal.com/api/blogs/addBlog";
+  const API2 = "https://homeplexapi.homeplexnepal.com/api/blogs/";
 
 
   const handleClick = async (e) => {
@@ -21,7 +23,7 @@ const Write = () => {
    
     try {
       state
-        ? await axios.put(`/blogs/${state.id}`, {
+        ? await axios.put(`${API2}${state.id}`, {
             title:title,
             desci: desci,
             url:url,
@@ -30,14 +32,13 @@ const Write = () => {
             imgUrl2,
       
           })
-        : await axios.post(`/blogs/addBlog`, {
+        : await axios.post(`${API1}`, {
             title:title,
             desci: desci,
             url:url,
             cat,
             imgUrl1,
             imgUrl2,
-     
             date: moment(Date.now()).format("YYYY-MM-DD HH:mm:ss"),
           });
           navigate("/")
