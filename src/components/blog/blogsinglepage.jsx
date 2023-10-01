@@ -9,11 +9,12 @@ const Single = () => {
   const [loading, setLoading] = useState(true); // Add loading state
   const location = useLocation();
   const postId = location.pathname.split("/")[2];
+  const API = "http://homeplexapi.homeplexnepal.com/api/blogs/";
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`/blogs/${postId}`);
+        const res = await axios.get(`${API}${postId}`);
         setPost(res.data);
         setLoading(false); // Set loading to false after data is fetched
       } catch (err) {
