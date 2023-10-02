@@ -63,11 +63,11 @@ const About = () => {
     <>
     <Helmet>
     <meta charset="utf-8" />
-    <title>About Custom Home Builders - Homeplex</title>
+    <title> About Custom Home Builders - Homeplex </title>
     <meta  
       name="description"
       content="Discover Homeplex: Expert custom home builders dedicated to making your dream home a reality. Learn all about custom home builders here!"
-    />
+    /> 
     <meta 
       name="keywords"
       content="custom home builders, House Repair Service, Home interior design Kathmandu, Commercial interior design Kathmandu

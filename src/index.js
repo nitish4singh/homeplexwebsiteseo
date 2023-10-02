@@ -4,17 +4,20 @@ import './index.css';
 import App from './App';
  import reportWebVitals from './reportWebVitals';
 import { AuthContexProvider } from './components/blog/blogadmin/authContext';
+import { hydrate, render } from "react-dom";
 
- const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const rootElement = document.getElementById('root');
+const AppContainer = (
   <React.StrictMode>
-     <AuthContexProvider>
-    <App />
+    <AuthContexProvider> {/* Correct the component name */}
+      <App />
     </AuthContexProvider>
   </React.StrictMode>
 );
+if (rootElement.hasChildNodes()) {
+  hydrate(AppContainer, rootElement);
+} else {
+  render(AppContainer, rootElement);
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

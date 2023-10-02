@@ -86,6 +86,7 @@ const Applience = () => {
 
   return (
     <>
+    
     <Helmet>
     <meta charset="utf-8" />
     <title>Electrical Appliance in kathmandu</title>
