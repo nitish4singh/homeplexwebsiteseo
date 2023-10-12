@@ -4,18 +4,7 @@ import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
 import { Helmet } from "react-helmet";
 const Applience = () => {
-    const images = [
-      {
-        id: 1,
-        imageUrl: '../images/banner.png',
-        title: 'Image 1',
-      }, 
-      {
-        id: 2,
-        imageUrl: '../images/banner.png',
-        title: 'Image 2',
-      },
-          ];
+
   
 
   const servicesData = [

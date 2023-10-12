@@ -8,6 +8,6 @@ useEffect(()=>{
   ReactGa.pageview(window.location.pathname  + window.location.search)
 },[]);
   return <Pages />
-}
+} 
 
 export default App

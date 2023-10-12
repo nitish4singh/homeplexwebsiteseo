@@ -194,7 +194,18 @@ img {
   padding-left: 35px;
   padding-right: 35px;
 }
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Background color for the full page */
 
+  /* Optional styles for the center content */
+  .center {
+    text-align: center;
+  }
+}
 .video-container iframe {
   width: calc(33.33% - 20px);
   height: 400px;

@@ -29,11 +29,14 @@
   max-width: 100%;
   height: auto;
 }
-
 .content1 {
-  margin-top: 10px;
+  margin: 50px;
 }
-
+.content2 {
+  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .link1 {
   text-decoration: none;
   color: #333;
@@ -45,6 +48,7 @@
 
 p {
   margin: 0;
+ 
 }
 
 .read-more1 {

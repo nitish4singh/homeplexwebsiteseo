@@ -22,12 +22,10 @@ const Header = () => {
             </ul>
           </div>
           <div className='button flex'>
-          
-            <button className='btn1'>
-              <i></i> +9779808338255
+            <button >
+            <Link to="tel:9808338255" style={{ color: '#ffffff', fontSize:'18px' }}>+977980833855</Link>
             </button>
-          </div>
-
+                      </div>
           <div className='toggle'>
             <button onClick={() => setNavList(!navList)}>{navList ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}</button>
           </div>

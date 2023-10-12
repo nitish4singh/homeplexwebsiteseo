@@ -4,7 +4,7 @@ import "react-quill/dist/quill.snow.css";
 import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
 import moment from "moment";
-import './blogcss.css';
+import './writeblog.css';
 const Write = () => {
   const state = useLocation().state;
   const [title, setTitle] = useState(state?.title || "");
@@ -16,8 +16,6 @@ const Write = () => {
   const navigate = useNavigate();
   const API1 = "https://homeplexapi.homeplexnepal.com/api/blogs/addBlog";
   const API2 = "https://homeplexapi.homeplexnepal.com/api/blogs/";
-
-
   const handleClick = async (e) => {
     e.preventDefault();
    
@@ -48,8 +46,8 @@ const Write = () => {
   };
 
   return (
-    <div className="add">
-      <div className="content">
+    <div className="addblog">
+      <div className="blogcontent">
         <input
           type="text"
           placeholder="BlogUrl"
@@ -88,15 +86,7 @@ const Write = () => {
       <div className="menu">
         <div className="item">
           <h1>Publish</h1>
-          <span>
-            <b>Status: </b> Draft
-          </span>
-          <span>
-            <b>Visibility: </b> Public
-          </span>
-        
           <div className="buttons">
-            <button>Save as a draft</button>
             <button onClick={handleClick}>Publish</button>
           </div>
         </div>

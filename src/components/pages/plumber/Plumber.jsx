@@ -4,19 +4,7 @@ import PriceCard from '../features/PriceCard';
 import "../features/allpage.css"
 import { Helmet } from "react-helmet";
 const Plumber = () => {
-    const images = [
-      {
-        id: 1,
-        imageUrl: '../images/serviceimg/pw1.png',
-        title: 'Image 1',
-      },
-      {
-        id: 2,
-        imageUrl: '../images/banner.png',
-        title: 'Image 2',
-      },
-    ];
-  
+
 
   const servicesData = [
     {
@@ -183,7 +171,7 @@ const Plumber = () => {
     />
     <meta 
       name="keywords"
-      content="Plumbing Services in kathmandu, Plumbing Maintenance, Plumbing Repairs, Plumbing Contractors, Bathroom Plumbing, Kitchen Plumbing
+      content="Plumbing Services in kathmandu, Plumbing Maintenance, Plumbing Repairs,Solar Tube Replacement, Plumbing Contractors,Shower Head Installation, Bathroom Plumbing, Kitchen Plumbing
       "
     />
   </Helmet>
@@ -205,7 +193,6 @@ const Plumber = () => {
               </div>
             ))}
     </div>
-   
         </div>
         </div>
 

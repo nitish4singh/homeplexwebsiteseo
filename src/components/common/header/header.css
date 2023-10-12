@@ -28,8 +28,17 @@ header span {
   background: #008383;
   border-radius: 50px;
   color: #ffffff;
-  margin-right: 1px;
+  margin-right: 1px; 
   font-weight: 400;
+}
+.btnp{
+  border-radius: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #074955;
+  padding-top: 10px;
+  margin-top: 5%;
+  text-align: center;
 }
 header h4 {
   font-weight: 500;

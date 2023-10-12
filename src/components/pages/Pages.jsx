@@ -21,12 +21,14 @@ import RepairMaintance from "./repair&maintainance/repairmaintance"
 import Write from "../blog/blogadmin/writeblog"
 import Login from "../blog/blogadmin/adminlogin"
 import Single from "../blog/blogsinglepage"
+import NotFound from "./NotFound"
 
 const Pages = () => {
   return (
     <>
       <Router>
         <Header />
+        <React.StrictMode>
         <Routes>
           <Route exact path='/' element={<Home/>} />
           <Route exact path='/about' element={<About/>} />
@@ -47,7 +49,9 @@ const Pages = () => {
            <Route exact path='/writeblog/' element={<Write/>} />
            <Route exact path='/blogadminlogin/' element={<Login/>} />
            <Route exact path='/post/:id' element={<Single/>} />
+           <Route path="*" element={<NotFound />} />
         </Routes>
+        </React.StrictMode>
         <Footer />
       </Router>
     </>

@@ -1,0 +1,70 @@
+.addblog {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .blogcontent {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+
+  }
+  
+  .editorContainer {
+    border-radius: 4px;
+    padding: 10px;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: scroll;
+  border: 1px solid lightgray;
+  }
+  .editor {
+    height: 100%;
+    border: none;
+  }
+  
+  
+  .blogmenu {
+    flex: 0 0 300px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+  }
+  
+  .blogitem {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #074955;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .cat {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  

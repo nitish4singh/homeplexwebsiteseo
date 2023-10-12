@@ -14,8 +14,9 @@ const Home = () => {
       <Hero />
       <Featured />
       <AboutHomeplex/>
+      <PopularServiceCard/>
       <Price />
-     <PopularServiceCard/>
+   
       <ClientWork/>
         <Awards />
       <Team />
