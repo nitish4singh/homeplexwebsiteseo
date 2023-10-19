@@ -5,8 +5,6 @@ import "../features/allpage.css"
 import { Helmet } from "react-helmet";
 const Applience = () => {
 
-  
-
   const servicesData = [
     {
       id: 1,

@@ -4,7 +4,6 @@ import "react-multi-carousel/lib/styles.css";
 import Product from "./clientworkCard";
 import { productData, responsive } from "./clientData";
 
-
 const ClientWork = () => {
     const product = productData.map((item) => (
         <Product
@@ -12,6 +11,7 @@ const ClientWork = () => {
           url={item.imageurl}
           price={item.price}
           description={item.description}
+          alt ={item.alt}
         />
       ));
       return (

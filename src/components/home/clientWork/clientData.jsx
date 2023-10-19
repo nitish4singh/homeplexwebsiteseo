@@ -26,6 +26,7 @@ export const responsive = {
         "../images/list/shouse.jpeg",
       name: "Homeplex completed a construction project",
       description: "Some text about the product..",
+      alt:"Homeplex completed a construction project",
     },
     {
       id: 2,
@@ -33,13 +34,15 @@ export const responsive = {
         "../images/list/interior1.jpeg",
       name: "Homeplex engineer design the living Room",
             description: "Some text about the product..",
+            alt:"Homeplex completed a construction project",
     },
     {
       id: 3,
       imageurl:
         "../images/list/false.jpeg",
-      name: "Homeplex False celling design",
+          name: "Homeplex False celling design",
             description: "Some text about the product..",
+            alt:"Homeplex False celling design",
     },
  
     {
@@ -48,6 +51,7 @@ export const responsive = {
         "../images/list/ladder1.jpeg",
       name: "Homeplex Ladder Design ",
             description: "Some text about the product..",
+            alt:"Homeplex Ladder Design",
     },
 
   ];

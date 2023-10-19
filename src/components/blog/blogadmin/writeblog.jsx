@@ -5,6 +5,9 @@ import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
 import moment from "moment";
 import './writeblog.css';
+import Back from "../../common/Back"
+import "../../home/recent/recent.css"
+import img from "../../images/civilwork.jpeg"
 const Write = () => {
   const state = useLocation().state;
   const [title, setTitle] = useState(state?.title || "");
@@ -46,6 +49,9 @@ const Write = () => {
   };
 
   return (
+<>
+<section className='blog-out mb'>
+<Back name='WriteBlog' title='Write a blog' cover={img} />
     <div className="addblog">
       <div className="blogcontent">
         <input
@@ -75,7 +81,6 @@ const Write = () => {
           value={imgUrl1}
           onChange={(e) => setImgUrl1(e.target.value)}
                   />
-
 <input
           type="text"
           placeholder="Image Url2"
@@ -84,12 +89,7 @@ const Write = () => {
                   />
       </div>
       <div className="menu">
-        <div className="item">
-          <h1>Publish</h1>
-          <div className="buttons">
-            <button onClick={handleClick}>Publish</button>
-          </div>
-        </div>
+
         <div className="item">
           <h1>Category</h1>
           <div className="cat">
@@ -170,8 +170,17 @@ const Write = () => {
             <label htmlFor="painting">Painting</label>
           </div>
         </div>
+        <div className="item">
+          <h1>Publish</h1>
+          <div className="buttons">
+            <button onClick={handleClick}>Publish</button>
+          </div>
+        </div>
       </div>
     </div>
+    </section>
+    
+    </>
   );
 };
 

@@ -3,6 +3,10 @@ import { useContext } from "react";
 import {  useNavigate } from "react-router-dom";
 import { AuthContext } from "./authContext";
 import './blogcss.css';
+import Back from "../../common/Back"
+import "../../home/recent/recent.css"
+import img from "../../images/civilwork.jpeg"
+
 const Login = () => {
   const [inputs, setInputs] = useState({
     username: "",
@@ -24,6 +28,9 @@ const Login = () => {
     }
   };
   return (
+<>
+<section className='blog-out mb'>
+<Back name='Adminlogin' title='Login for blog' cover={img} />
     <div className="auth">
       <h1>Login</h1>
       <form>
@@ -45,6 +52,8 @@ const Login = () => {
         {err && <p>{err}</p>}
       </form>
     </div>
+    </section>
+    </>
   );
 };
 

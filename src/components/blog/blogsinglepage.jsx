@@ -25,23 +25,30 @@ const Single = () => {
     };
     fetchData();
   }, [postId]);
+  const getText = (html) => {
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    return doc.body.textContent;
+  };
 
-
+  const truncateText = (text, limit) => {
+    if (text.length <= limit) return text;
+    return text.substring(0, limit) + "...";
+  };
+ 
   return (
     <>
         <Helmet>
     <meta charset="utf-8" />
-    <title>{`${post.url}`}</title>
+    <title>{`${post.title}`}</title>
     <meta
       name="description"
-      content =  {`${post.title}`}
+      content =  {`$${truncateText(getText(post.desci), 50)}`}
     />
     <meta 
       name="keywords"
-      content= {`${post.desci}`}
+      content= {`${post.title}`}
     />
   </Helmet>
-  
     <div className="single">
       {loading ? (
         <p>Loading...</p>

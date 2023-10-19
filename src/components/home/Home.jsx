@@ -16,7 +16,6 @@ const Home = () => {
       <AboutHomeplex/>
       <PopularServiceCard/>
       <Price />
-   
       <ClientWork/>
         <Awards />
       <Team />

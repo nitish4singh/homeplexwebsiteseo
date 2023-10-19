@@ -3,7 +3,7 @@ import './clientwork.css'
 export default function Product(props) {
   return (
     <div className="card">
-      <img className="product--image" src={props.url} alt="product image" />
+      <img className="product--image" src={props.url} alt= {props.alt} />
       <div className="clienth2">{props.name}</div>
             {/* <p>{props.description}</p>
        */}

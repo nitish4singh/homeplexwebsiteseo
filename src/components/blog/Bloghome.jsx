@@ -8,7 +8,6 @@ const BlogHome = () => {
   const [loading, setLoading] = useState(true);
   const cat = useLocation().search;
   const API = "https://homeplexapi.homeplexnepal.com/api/blogs/allblogs";
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -23,18 +22,16 @@ const BlogHome = () => {
     };
     fetchData();
   }, [cat]);
-
   const getText = (html) => {
     const doc = new DOMParser().parseFromString(html, "text/html");
     return doc.body.textContent;
   };
-
   const truncateText = (text, limit) => {
     if (text.length <= limit) return text;
     return text.substring(0, limit) + "...";
   };
-
   return (
+    <>
     <div className="home1">
       {loading ? (
         <p>Loading...</p>
@@ -42,7 +39,7 @@ const BlogHome = () => {
         <div className="posts1">
           {posts.length === 0 ? (
             <p>No posts found.</p>
-          ) : (
+          ):(
             posts.map((post) => (
               <div className="post1" key={post.id}>
                 <div className="img">
@@ -63,6 +60,7 @@ const BlogHome = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 
