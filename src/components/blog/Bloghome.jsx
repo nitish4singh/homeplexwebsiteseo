@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import axios from "axios";
 import './blogcss.css';
-
 const BlogHome = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -21,8 +21,7 @@ const Write = () => {
   const API2 = "https://homeplexapi.homeplexnepal.com/api/blogs/";
   const handleClick = async (e) => {
     e.preventDefault();
-   
-    try {
+       try {
       state
         ? await axios.put(`${API2}${state.id}`, {
             title:title,
@@ -46,26 +45,28 @@ const Write = () => {
     } catch (err) {
       console.log(err);
     }
-  };
-
+  }; 
   return (
 <>
 <section className='blog-out mb'>
-<Back name='WriteBlog' title='Write a blog' cover={img} />
+  
+{/* <Back name='WriteBlog' title='Write a blog' cover={img} /> */}
+
     <div className="addblog">
       <div className="blogcontent">
-        <input
-          type="text"
-          placeholder="BlogUrl"
-          value={url}
-          onChange={(e) => setUrl(e.target.value)}
-                  />
-              <input
-          type="text"
-          placeholder="Title"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-                  />
+      <input
+  type="text"
+  placeholder="BlogUrl"
+  value={url}
+  onChange={(e) => setUrl(e.target.value)}
+/>
+
+<input
+  type="text"
+  placeholder="Title"
+  value={title}
+  onChange={(e) => setTitle(e.target.value)}
+/>
         <div className="editorContainer">
           <ReactQuill
             className="editor"
